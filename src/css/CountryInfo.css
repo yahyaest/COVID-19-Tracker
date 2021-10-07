@@ -1,0 +1,30 @@
+img {
+  width: 90%;
+  margin: 1em;
+}
+
+span {
+  font-size: 0.75em;
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+h5 {
+  color: cornflowerblue;
+}
+
+#card{
+  margin-top: 10em;
+  margin-bottom: 5em;
+}
+
+.card-img-top{
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 60% !important;
+  margin-top: 5px !important;
+}

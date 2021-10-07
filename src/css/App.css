@@ -1,0 +1,164 @@
+/* img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 50% !important;
+  margin-top: 0 !important;
+} */
+
+.App {
+  background-color: #001514;
+  color: white;
+}
+
+.main {
+  text-align: center;
+  display: flex;
+  width: 95%;
+}
+
+.container {
+  width: 70% !important;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  justify-items: center;
+  width: 25%;
+  /* background-color: crimson;  */
+  border-radius: 6px;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+
+
+
+@media (max-width: 1400px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .country-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .covid-worldwide {
+    width: 80%;
+    margin: 1rem auto !important;
+    padding: 1em;
+  }
+
+ 
+
+  .confirmed-count span,
+  .recovered-count span,
+  .deaths-count span {
+    font-size: 1rem;
+  }
+}
+
+
+
+@media (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100% !important;
+    margin: 0 auto;
+  }
+
+  .country-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .covid-worldwide {
+    width: 90%;
+    margin: 0 auto !important;
+    padding: 1em;
+  }
+  .covid-data {
+    width: 100%;
+    margin: 0 auto !important;
+  }
+
+  .covid-vizualisation {
+    width: 100%;
+    margin: 0 auto !important;
+  }
+
+  #myChart {
+    width: 100%;
+  }
+
+
+
+ 
+
+  .country-data {
+    width: 90%;
+    margin: 0 auto !important;
+  }
+
+  #table {
+    font-size: 0.5em !important;
+  }
+
+  .sub-card-confirmed p,
+  .sub-card-recovered p,
+  .sub-card-deaths p {
+    font-size: 0.8rem;
+  }
+
+  .confirmed-count span,
+  .recovered-count span,
+  .deaths-count span {
+    font-size: 0.8rem;
+  }
+}

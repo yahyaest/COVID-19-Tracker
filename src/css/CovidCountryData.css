@@ -1,0 +1,54 @@
+h4 {
+  color: grey;
+  font-size: 1em;
+}
+
+h6 {
+  color: grey;
+}
+
+/* .row{
+  background-color: white;
+  border-radius: 2px;
+  padding: 20px;
+} */
+
+.covid-data {
+  /* background-color: cadetblue; */
+  border-radius: 6px;
+  padding: 1em;
+  margin: 2em;
+}
+
+.footer-color-success {
+  background-color: #28a745 !important;
+  height: 10px !important;
+  padding: 0 !important;
+}
+
+.footer-color-info {
+  background-color: #17a2b8 !important;
+  height: 10px !important;
+  padding: 0 !important;
+}
+
+.footer-color-danger {
+  background-color: #dc3545 !important;
+  height: 10px !important;
+  padding: 0 !important;
+}
+
+.footer-color-warning {
+  background-color: #ffc107 !important;
+  height: 10px !important;
+  padding: 0 !important;
+}
+
+.card-body {
+  padding: 10px;
+}
+.card{
+  margin: 10px;
+  min-height: 225px;
+}
+

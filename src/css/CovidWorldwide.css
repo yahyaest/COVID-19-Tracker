@@ -1,0 +1,72 @@
+/* p{
+  margin: 0;
+} */
+
+.card {
+  color: black;
+}
+
+.sub-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-card-confirmed {
+  width: 30%;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+.confirmed-count span {
+  color: crimson;
+}
+
+.sub-card-confirmed:hover {
+  background: crimson;
+  color: white;
+}
+
+.sub-card-confirmed:hover span {
+  background: crimson;
+  color: white;
+}
+
+.sub-card-recovered {
+  width: 30%;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+.recovered-count span {
+  color: #177E89;
+}
+
+.sub-card-recovered:hover {
+  background: #177E89;
+  color: white;
+}
+
+.sub-card-recovered:hover span {
+  background: #177E89;
+  color: white;
+}
+
+.sub-card-deaths {
+  width: 30%;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+.deaths-count span {
+  color: #472D30;
+}
+
+.sub-card-deaths:hover {
+  background: #472D30;
+  color: white;
+}
+
+.sub-card-deaths:hover span {
+  background: #472D30;
+  color: white;
+}

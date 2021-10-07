@@ -1,0 +1,19 @@
+.country__page {
+  margin: auto;
+  width: 90% !important;
+}
+
+.country__flag {
+  width: 30% !important;
+}
+
+.country__info h3{
+  color: white;
+}
+
+.general__covid19__info {
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 70% !important;
+}

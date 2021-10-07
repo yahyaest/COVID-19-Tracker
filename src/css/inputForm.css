@@ -1,0 +1,31 @@
+.autoContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* margin-left: 15%; */
+  width: 100%;
+  padding: 0;
+  max-height: 240px;
+  overflow-y: scroll;
+}
+
+.option {
+  width: 100%;
+}
+
+.option,
+li {
+  color: black;
+  text-transform: capitalize;
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: silver;
+  color: white;
+  font-size: 1.25em;
+}
+
+/* .input-group-prepend {
+  width: 15%;
+} */
