@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Map, TileLayer, Marker, Circle } from "react-leaflet";
-import "../css/CovidMap.css";
+import { Map, TileLayer, Marker } from "react-leaflet";
 import { showDataOnMap } from "../services/countries";
+import "../css/CovidMap.css";
+import axios from "axios";
 
 function CovidMap(props) {
   const [allCountriesData, setAllCountriesData] = useState([]);
@@ -9,13 +10,15 @@ function CovidMap(props) {
 
   useEffect(() => {
     async function fetchData() {
-      await fetch("https://corona.lmao.ninja/v2/countries")
-        .then((response) => response.json())
-        .then((data) => {
-          // console.log("newest", data);
-          setAllCountriesData(data);
-        })
-        .catch((error) => console.log(error));
+      try {
+        const countries = await axios.get(
+          "https://corona.lmao.ninja/v2/countries"
+        );
+        const countriesData = countries.data;
+        setAllCountriesData(countriesData);
+      } catch (error) {
+        console.log(error);
+      }
     }
     fetchData();
   }, []);
@@ -28,9 +31,7 @@ function CovidMap(props) {
         defaultValue="cases"
         onChange={(e) => setCasesType(e.currentTarget.value)}
       >
-        <option value="cases">
-          Confirmed
-        </option>
+        <option value="cases">Confirmed</option>
         <option value="active">Active</option>
         <option value="recovered">Recovered</option>
         <option value="deaths">Deaths</option>

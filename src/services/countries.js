@@ -1,3 +1,5 @@
+import axios from "axios";
+import numeral from "numeral";
 import React from "react";
 import { Circle, Popup } from "react-leaflet";
 
@@ -6,7 +8,7 @@ const casesTypeColors = {
     hex: "#28a745",
     rgb: "rgb(40,167,69)",
     half_op: "rgba(40,167,69, 0.5)",
-    multiplier: 200,
+    multiplier: 100,
   },
 
   active: {
@@ -19,13 +21,13 @@ const casesTypeColors = {
     hex: "#ffc107",
     rgb: "rgb(255,193,7)",
     half_op: "rgba(255,193,7, 0.5)",
-    multiplier: 300,
+    multiplier: 150,
   },
   deaths: {
     hex: "#dc3545",
     rgb: "rgb(220,53,69)",
     half_op: "rgba(220,53,69, 0.5)",
-    multiplier: 2000,
+    multiplier: 1000,
   },
 };
 
@@ -38,15 +40,12 @@ export async function getTopCountries() {
   // Fetching API Data
   url = `https://corona.lmao.ninja/v2/countries`;
 
-  fetch(url)
-    .then((response) => response.json())
-    .then((data) => {
-      // console.log("newest", data);
-      allCountriesData = data;
-    })
-    .catch((error) => console.log(error));
-
-  await sleep(1000);
+  try {
+    const allCountries = await axios.get(url);
+    allCountriesData = allCountries.data;
+  } catch (error) {
+    console.log(error);
+  }
 
   // Create countries confirmed cases table
   allCountriesData.map((Country) => {
@@ -75,34 +74,29 @@ export async function getTopCountries() {
       }
     }
   }
-  //console.log("final", selected_countries);
   return selected_countries;
 }
 
 export async function countriesResults() {
-  let topCountries = [];
   let confirmed = [];
   let recovered = [];
   let deaths = [];
   let alpha2Code_table = [];
 
-  let countries = await getTopCountries();
-  await sleep(500);
-  countries.map((country) => {
-    let url = `https://corona.lmao.ninja/v2/countries/${country}`;
-    fetch(url)
-      .then((response) => response.json())
-      .then((data) => {
-        // console.log(data);
-        topCountries.push(country);
-        confirmed.push(data.cases);
-        recovered.push(data.recovered);
-        deaths.push(data.deaths);
-        alpha2Code_table.push(data.countryInfo.iso2.toLowerCase());
-      })
-      .catch((error) => console.log(error));
-    return 0;
-  });
+  const topCountries = await getTopCountries();
+  let url = `https://corona.lmao.ninja/v2/countries/${topCountries.join(",")}`;
+
+  try {
+    const countriesResults = await axios.get(url);
+    const countriesData = countriesResults.data;
+    for (let country of countriesData) {
+      confirmed.push(country.cases);
+      recovered.push(country.recovered);
+      deaths.push(country.deaths);
+      alpha2Code_table.push(country.countryInfo.iso2.toLowerCase());
+    }
+  } catch (error) {}
+
   return [topCountries, confirmed, recovered, deaths, alpha2Code_table];
 }
 
@@ -166,6 +160,7 @@ export function timeConverter(UNIX_timestamp) {
 export function showDataOnMap(data, casesType) {
   return data.map((country) => (
     <Circle
+      key={country.country}
       center={[country.countryInfo.lat, country.countryInfo.long]}
       fillOpacity={0.4}
       color={casesTypeColors[casesType].hex}
@@ -177,9 +172,9 @@ export function showDataOnMap(data, casesType) {
       <Popup>
         <p>
           <strong style={{ color: `${casesTypeColors[casesType].hex}` }}>
-            { country.country}-{casesType}
+            {country.country}-{casesType}
           </strong>
-          : {country[casesType]}
+          : {numeral(country[casesType]).format("0,0")}
         </p>
       </Popup>
     </Circle>

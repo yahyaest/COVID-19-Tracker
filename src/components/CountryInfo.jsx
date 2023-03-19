@@ -12,16 +12,18 @@ class CountryInfo extends Component {
           </div>
           <img className="card-img-top" id="flag" alt="flag-img"></img>
           <div className="card-body">
-            {/* <h5>
+            <h5>
               Capital : <span id="capital"></span>
-            </h5> */}
+            </h5>
             <h5>
               Population : <span id="population"></span>
             </h5>
-            {/* <h5>
+            <h5>
               Language : <span id="language"></span>
-            </h5> */}
-            
+            </h5>
+            <h5>
+              Currency : <span id="currency"></span>
+            </h5>
           </div>
         </div>
       </React.Fragment>

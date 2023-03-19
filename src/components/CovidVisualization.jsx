@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Chart from "chart.js";
+import axios from "axios";
 import "../css/CovidVisualization.css";
 
 const timeLine = [
@@ -18,7 +19,7 @@ class CovidVisualization extends Component {
     Recovered: [],
     Deaths: [],
     Dates: [],
-    timeLineOption: "3 months ago",
+    timeLineOption: "last year",
     showTimeBar: false,
     chartWidth: window.innerWidth,
   };
@@ -41,36 +42,34 @@ class CovidVisualization extends Component {
     let death_cases = [];
     let dates = [];
 
-    await fetch(url)
-      .then((response) => response.json())
-      .then(async (data) => {
-        data.map((day) => {
-          if (
-            day.Confirmed >= confirmed_cases[confirmed_cases.length - 1] ||
-            confirmed_cases.length === 0
-          ) {
-            confirmed_cases.push(day.Confirmed);
-            active_cases.push(day.Active);
-            recovered_cases.push(day.Recovered);
-            death_cases.push(day.Deaths);
-            dates.push(day.Date.slice(0, 10));
-          }
+    try {
+      const countryResult = await axios.get(url);
+      const countryData = countryResult.data;
+      countryData.map((day) => {
+        if (
+          day.Confirmed >= confirmed_cases[confirmed_cases.length - 1] ||
+          confirmed_cases.length === 0
+        ) {
+          confirmed_cases.push(day.Confirmed);
+          active_cases.push(day.Active);
+          recovered_cases.push(day.Recovered);
+          death_cases.push(day.Deaths);
+          dates.push(day.Date.slice(0, 10));
+        }
+        return 0;
+      });
+      this.setState({
+        Confirmed: confirmed_cases,
+        Active: active_cases,
+        Recovered: recovered_cases,
+        Deaths: death_cases,
+        Dates: dates,
+      });
+    } catch (error) {
+      console.log(error);
+    }
 
-          return 0;
-        });
-
-        this.setState({
-          Confirmed: confirmed_cases,
-          Active: active_cases,
-          Recovered: recovered_cases,
-          Deaths: death_cases,
-          Dates: dates,
-        });
-      })
-      .catch((error) => console.log(error));
-
-    this.props.setCountryData();
-    await this.sleep(1000);
+    await this.props.setCountryData();
     this.handleChart(this.state.timeLineOption);
 
     //Handle invisible elements
@@ -81,10 +80,10 @@ class CovidVisualization extends Component {
     document.querySelector("#name").innerText = this.props.name;
     document.querySelector("#flag").setAttribute("src", this.props.flag);
     document.querySelector("#flag").style.border = "1px solid black";
-   // document.querySelector("#capital").innerText = this.props.capital;
+    document.querySelector("#capital").innerText = this.props.capital;
     document.querySelector("#population").innerText = this.props.population;
-   // document.querySelector("#language").innerText = this.props.language;
-  //  document.querySelector("#currency").innerText = this.props.currency;
+    document.querySelector("#language").innerText = this.props.language;
+    document.querySelector("#currency").innerText = this.props.currency;
   };
 
   filteredData = (data, time) => {
@@ -150,12 +149,7 @@ class CovidVisualization extends Component {
     /* eslint-disable no-unused-vars */
   };
 
-  sleep = (ms) => {
-    return new Promise((resolve) => setTimeout(resolve, ms));
-  };
-
   updateDimensions = () => {
-    //console.log(window.innerWidth, this.state.chartWidth);
     this.setState({ chartWidth: window.innerWidth });
   };
   componentDidMount() {
@@ -166,12 +160,8 @@ class CovidVisualization extends Component {
   }
 
   render() {
-    // console.log(this.state.timeLineOption);
-    //   console.log(this.filteredData(this.state.Dates, this.state.timeLineOption));
-
     return (
       <div className="covid-vizualisation">
-        {/* <h1>We're all doomed !!!</h1> */}
         {this.props.isChart && (
           <button
             onClick={async () => {
@@ -206,8 +196,9 @@ class CovidVisualization extends Component {
             >
               {timeLine.map((timeOption) => (
                 <option
+                  key={timeOption}
                   value={timeOption}
-                  selected={timeOption === "3 months ago" ? "selected" : null}
+                  selected={timeOption === "last year" ? "selected" : null}
                 >
                   {timeOption}
                 </option>

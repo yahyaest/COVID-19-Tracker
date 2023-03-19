@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { timeConverter } from "../services/countries";
-import "../css/CovidWorldwide.css";
 import CountUp from "react-countup";
 import axios from "axios";
+import "../css/CovidWorldwide.css";
 
 const CovidWorldwide = () => {
   const [confirmed, setConfirmed] = useState(0);
@@ -13,18 +13,16 @@ const CovidWorldwide = () => {
   useEffect(() => {
     async function worldwideData() {
       const url = "https://corona.lmao.ninja/v2/all";
-      const result = axios
-        .get(url)
-        .then((res) => {
-          //console.log(res.data);
-          setConfirmed(res.data.cases);
-          setRecovered(res.data.recovered);
-          setDeaths(res.data.deaths);
-          setLastUpdate(timeConverter(res.data.updated));
-        })
-        .catch((err) => console.log(err));
-
-      return result;
+      try {
+        const result = await axios.get(url);
+        const data = result.data;
+        setConfirmed(data.cases);
+        setRecovered(data.recovered);
+        setDeaths(data.deaths);
+        setLastUpdate(timeConverter(data.updated));
+      } catch (error) {
+        console.log(error);
+      }
     }
     worldwideData();
   }, []);

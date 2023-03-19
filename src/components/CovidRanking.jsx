@@ -34,7 +34,6 @@ class CovidRanking extends Component {
   async updateState() {
     let results = await countriesResults();
 
-    await this.sleep(1000);
     let countriesInfo = [];
     let index = 0;
     let countries = results[0];
@@ -51,7 +50,6 @@ class CovidRanking extends Component {
       countryInfo.cases = results[1][index];
       countryInfo.recovered = results[2][index];
       countryInfo.deaths = results[3][index];
-      //console.log(countryInfo)
 
       countriesInfo.push(countryInfo);
       index++;
@@ -62,7 +60,6 @@ class CovidRanking extends Component {
       countriesInfo,
     });
 
-    //console.log(countriesInfo);
     return {
       countriesInfo,
     };
@@ -75,7 +72,6 @@ class CovidRanking extends Component {
       [sortColumn.path],
       [sortColumn.order]
     );
-   // console.log(sortedCountries);
     return { countriesInfo: sortedCountries };
   };
 
@@ -105,8 +101,8 @@ class CovidRanking extends Component {
     return new Promise((resolve) => setTimeout(resolve, ms));
   };
 
-  componentWillMount() {
-    this.updateState();
+  async componentWillMount() {
+    await this.updateState();
   }
   render() {
     const { countriesInfo } = this.sortData();

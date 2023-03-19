@@ -4,6 +4,7 @@ import InputFrom from "./common/inputForm";
 import "../css/CovidCountryData.css";
 import { timeConverter } from "../services/countries";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 class CovidData extends Component {
   state = {
@@ -28,26 +29,19 @@ class CovidData extends Component {
     let url = `https://corona.lmao.ninja/v2/countries/${country}`;
 
     // Fetching Data
-    let country_data = await fetch(url)
-      .then((response) => response.json())
-      .then((data) => {
-        //console.log(data);
-        this.setState({
-          confirmed: data.cases,
-          recovered: data.recovered,
-          deaths: data.deaths,
-          active: data.cases - data.recovered - data.deaths,
-          lastUpdate: timeConverter(data.updated),
-        });
-      })
-      .catch((error) => console.log(error));
-    await this.sleep(2000);
-
-    return country_data;
-  };
-
-  sleep = (ms) => {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+    try {
+      const countryResult = await axios.get(url);
+      const countryData = countryResult.data;
+      this.setState({
+        confirmed: countryData.cases,
+        recovered: countryData.recovered,
+        deaths: countryData.deaths,
+        active: countryData.cases - countryData.recovered - countryData.deaths,
+        lastUpdate: timeConverter(countryData.updated),
+      });
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   render() {
@@ -104,7 +98,7 @@ class CovidData extends Component {
 
         {this.state.country && (
           <Link
-            style={{ color: "wheat" , textDecoration:"none"}}
+            style={{ color: "wheat", textDecoration: "none" }}
             to={`/covid-19/${this.state.country}`}
           >
             More info on {this.state.country} covid-19 state

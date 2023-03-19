@@ -7,6 +7,8 @@ import CountryInfo from "../components/CountryInfo";
 import CovidRanking from "../components/CovidRanking";
 import CovidWorldwide from "../components/CovidWorldwide";
 import CovidMap from "../components/CovidMap";
+import axios from "axios";
+import numeral from "numeral";
 
 class HomePage extends React.Component {
   state = {
@@ -36,33 +38,34 @@ class HomePage extends React.Component {
       country = country.replace(" ", "%20");
     }
     let url = `https://corona.lmao.ninja/v2/countries/${country}`;
+    let url2 = `https://restcountries.com/v3.1/name/${country}`;
 
     // Fetching Data
-    const country_data = fetch(url)
-      .then((response) => response.json())
-      .then((data) => {
-       // console.log(data);
-        this.setState({
-          name: data.country,
-          flag: data.countryInfo.flag,
-          capital: data.capital || "Not Found",
-          population: data.population,
-          language: data.languages || "Not Found",
-          currency: data.currencies || "Not Found",
-          lat: data.countryInfo.lat,
-          lon: data.countryInfo.long,
-          zoom: 4,
-        });
-      })
+    try {
+      const country_data = await axios.get(url);
+      const data = country_data.data;
 
-      .catch((error) => console.log(error));
+      const country_data2 = await axios.get(url2);
+      const data2 = country_data2.data[0];
 
-    await this.sleep(1000);
-    return country_data;
-  };
 
-  sleep = (ms) => {
-    return new Promise((resolve) => setTimeout(resolve, ms));
+      this.setState({
+        name: data.country,
+        flag: data.countryInfo.flag,
+        capital: data2.capital[0] || "Not Found",
+        population: numeral(data.population).format("0,0"),
+        language:
+          data2.languages[`${Object.keys(data2.languages)[0]}`] || "Not Found",
+        currency:
+          data2.currencies[`${Object.keys(data2.currencies)[0]}`].name ||
+          "Not Found",
+        lat: data.countryInfo.lat,
+        lon: data.countryInfo.long,
+        zoom: 4,
+      });
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   render() {
