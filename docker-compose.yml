@@ -15,3 +15,5 @@ services:
     volumes:
       - ./src:/app/src
       - ./public:/app/public
+    env_file:
+      - .env
