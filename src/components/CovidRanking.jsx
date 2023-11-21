@@ -45,11 +45,19 @@ class CovidRanking extends Component {
         recovered: "",
         deaths: "",
       };
-      countryInfo.name = countries[index];
-      countryInfo.alpha2Cod = results[4][index];
-      countryInfo.cases = results[1][index];
-      countryInfo.recovered = results[2][index];
-      countryInfo.deaths = results[3][index];
+      if (results[results.length - 1] !== true) {
+        countryInfo.name = countries[index];
+        countryInfo.alpha2Cod = results[4][index];
+        countryInfo.cases = results[1][index];
+        countryInfo.recovered = results[2][index];
+        countryInfo.deaths = results[3][index];
+      } else {
+        countryInfo.name = results[5][index];
+        countryInfo.alpha2Cod = results[4][index];
+        countryInfo.cases = results[1][index];
+        countryInfo.recovered = results[2][index];
+        countryInfo.deaths = results[3][index];
+      }
 
       countriesInfo.push(countryInfo);
       index++;

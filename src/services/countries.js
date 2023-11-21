@@ -83,10 +83,11 @@ export async function countriesResults() {
   let deaths = [];
   let alpha2Code_table = [];
 
-  const topCountries = await getTopCountries();
-  let url = `https://corona.lmao.ninja/v2/countries/${topCountries.join(",")}`;
-
   try {
+    const topCountries = await getTopCountries();
+    let url = `https://corona.lmao.ninja/v2/countries/${topCountries.join(
+      ","
+    )}`;
     const countriesResults = await axios.get(url);
     const countriesData = countriesResults.data;
     for (let country of countriesData) {
@@ -95,9 +96,45 @@ export async function countriesResults() {
       deaths.push(country.deaths);
       alpha2Code_table.push(country.countryInfo.iso2.toLowerCase());
     }
-  } catch (error) {}
-
-  return [topCountries, confirmed, recovered, deaths, alpha2Code_table];
+    return [topCountries, confirmed, recovered, deaths, alpha2Code_table];
+  } catch (error) {
+    // API fails or no more supported. Parse data from local files
+    const countryDataResponse = await fetch(
+      `/data/stats/countriesLatestData.json`
+    );
+    const countryData = await countryDataResponse.json();
+    const topCountries = countryData.splice(0, 10);
+    const alpha2CodeList = [
+      { country: "Usa", alpha2Code: "us" },
+      { country: "India", alpha2Code: "in" },
+      { country: "France", alpha2Code: "fr" },
+      { country: "Germany", alpha2Code: "de" },
+      { country: "Brazil", alpha2Code: "br" },
+      { country: "Italy", alpha2Code: "it" },
+      { country: "Uk", alpha2Code: "gb" },
+      { country: "Russia", alpha2Code: "ru" },
+      { country: "Mexico", alpha2Code: "mx" },
+      { country: "Peru", alpha2Code: "pe" },
+    ];
+    let countriesNames = [];
+    for (let country of topCountries) {
+      countriesNames.push(country.country);
+      confirmed.push(country.confirmed);
+      recovered.push(country.recovered);
+      deaths.push(country.deaths);
+      alpha2Code_table.push(alpha2CodeList.filter(e => e.country === country.country)[0].alpha2Code);
+    }
+    const isLocalData = true;
+    return [
+      topCountries,
+      confirmed,
+      recovered,
+      deaths,
+      alpha2Code_table,
+      countriesNames,
+      isLocalData,
+    ];
+  }
 }
 
 function selectionSort(array) {
