@@ -1,5 +1,3 @@
-// src : https://github.com/pomber/covid19   (last-update 09/03/2023)
-
 const fs = require("fs");
 const path = require("path");
 
@@ -7,6 +5,9 @@ const countriesDataPath = "../public/data/countries";
 
 const countriesList = [];
 const countriesLatestData = [];
+let worldConfirmedfCases = 0;
+let worldRecoveredfCases = 0;
+let worldDeathsCases = 0;
 
 // Read the list of files in the directory
 fs.readdir(countriesDataPath, (err, files) => {
@@ -36,22 +37,16 @@ fs.readdir(countriesDataPath, (err, files) => {
         countryLatestData.confirmed - countryLatestData.deaths;
       countryLatestData.country = countryName;
       countriesLatestData.push(countryLatestData); // Push latest country data
-      // console.log(`Contents of ${JSON.stringify(countryLatestData)}:`);
+      worldConfirmedfCases = worldConfirmedfCases + countryLatestData.confirmed;
+      worldRecoveredfCases = worldRecoveredfCases + countryLatestData.recovered;
+      worldDeathsCases = worldDeathsCases + countryLatestData.deaths;
 
       if (files.length === countriesLatestData.length) {
         // Get top 10 countries
-        const top10ConfirmedCountries = countriesLatestData
+        countriesLatestData
           .sort((a, b) => b.confirmed - a.confirmed)
           .slice(0, 10);
-        const top10RecoveredCountries = countriesLatestData
-          .sort((a, b) => b.recovered - a.recovered)
-          .slice(0, 10);
-        const top10DeathsCountries = countriesLatestData
-          .sort((a, b) => b.deaths - a.deaths)
-          .slice(0, 10);
-        // console.log(top10DeathsCountries);
         // write Data
-
         const countriesListFile = `../public/data/stats/countriesList.json`;
 
         fs.writeFile(
@@ -71,6 +66,27 @@ fs.readdir(countriesDataPath, (err, files) => {
         fs.writeFile(
           countriesLatestDataFile,
           JSON.stringify(countriesLatestData),
+          "utf8",
+          (err) => {
+            if (err) {
+              console.error("Error writing to the file:", err);
+              return;
+            }
+          }
+        );
+
+        const worldDataFile = `../public/data/stats/worldData.json`;
+
+        worldData = {
+          confirmed: worldConfirmedfCases,
+          recovered: worldRecoveredfCases,
+          deaths: worldDeathsCases,
+          lastUpdate: "2023-3-9",
+        };
+
+        fs.writeFile(
+          worldDataFile,
+          JSON.stringify(worldData),
           "utf8",
           (err) => {
             if (err) {
