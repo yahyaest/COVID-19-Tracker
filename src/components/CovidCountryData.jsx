@@ -40,7 +40,19 @@ class CovidData extends Component {
         lastUpdate: timeConverter(countryData.updated),
       });
     } catch (error) {
-      console.log(error);
+      // API fails or no more supported. Parse data from local files
+      const dataResponse = await fetch(
+        `/data/stats/countriesLatestData.json`
+      );
+      const data = await dataResponse.json();
+      const countryData = data.filter(e => e.country.toLowerCase() === country)[0];
+      this.setState({
+        confirmed: countryData.confirmed,
+        recovered: countryData.recovered,
+        deaths: countryData.deaths,
+        active: countryData.confirmed - countryData.recovered - countryData.deaths,
+        lastUpdate: countryData.date,
+      });
     }
   };
 

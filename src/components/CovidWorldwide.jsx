@@ -21,7 +21,15 @@ const CovidWorldwide = () => {
         setDeaths(data.deaths);
         setLastUpdate(timeConverter(data.updated));
       } catch (error) {
-        console.log(error);
+        // API fails or no more supported. Parse data from local files
+        const dataResponse = await fetch(
+          `/data/stats/worldData.json`
+        );
+        const data = await dataResponse.json();
+        setConfirmed(data.confirmed);
+        setRecovered(data.recovered);
+        setDeaths(data.deaths);
+        setLastUpdate(data.lastUpdate);
       }
     }
     worldwideData();

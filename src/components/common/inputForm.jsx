@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "../../css/inputForm.css";
 
 const InputForm = ({ onFetch, setIsChart }) => {
-  const [display, setDisplay] = useState(true);
+  const [display, setDisplay] = useState(false);
   const [countries, setCountries] = useState([]);
   const [search, setSearch] = useState("");
   const wrapperRef = useRef(null);
@@ -19,10 +19,20 @@ const InputForm = ({ onFetch, setIsChart }) => {
             countriesList.push(country.country.toLowerCase())
           );
         })
-        .catch((err) => console.log(err));
+        .catch(async (err) => {
+          const response = await fetch(`/data/stats/countriesList.json`);
+          const responseCountries = await response.json();
+          for (const country of responseCountries) {
+            countriesList.push(country.toLowerCase());
+          }
+          setCountries(countriesList);
+
+        });
     }
     getCountriesList();
-    setCountries(countriesList);
+    if (countriesList.length > 0) {
+      setCountries(countriesList);
+    }
   }, []);
 
   useEffect(() => {
