@@ -46,9 +46,9 @@ fs.readFile(countriesPath, "utf8", (err, data) => {
               languages: Object.values(countryInfo.languages),
               population: countryInfo.population,
               flag: countryInfo.flags.png,
-              latlng: {
+              latlon: {
                 lat: countryInfo.latlng[0],
-                lng: countryInfo.latlng[1],
+                lon: countryInfo.latlng[1],
               },
             };
             allCountriesInfo.push(countryPayload);

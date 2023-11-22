@@ -8,7 +8,7 @@
     "languages": ["Dari", "Pashto", "Turkmen"],
     "population": 40218234,
     "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
-    "latlng": { "lat": 33, "lng": 65 }
+    "latlon": { "lat": 33, "lon": 65 }
   },
   {
     "name": "Albania",
@@ -19,7 +19,7 @@
     "languages": ["Albanian"],
     "population": 2837743,
     "flag": "https://flagcdn.com/w320/al.png",
-    "latlng": { "lat": 41, "lng": 20 }
+    "latlon": { "lat": 41, "lon": 20 }
   },
   {
     "name": "Algeria",
@@ -30,7 +30,7 @@
     "languages": ["Arabic"],
     "population": 44700000,
     "flag": "https://flagcdn.com/w320/dz.png",
-    "latlng": { "lat": 28, "lng": 3 }
+    "latlon": { "lat": 28, "lon": 3 }
   },
   {
     "name": "Andorra",
@@ -41,7 +41,7 @@
     "languages": ["Catalan"],
     "population": 77265,
     "flag": "https://flagcdn.com/w320/ad.png",
-    "latlng": { "lat": 42.5, "lng": 1.5 }
+    "latlon": { "lat": 42.5, "lon": 1.5 }
   },
   {
     "name": "Angola",
@@ -52,7 +52,7 @@
     "languages": ["Portuguese"],
     "population": 32866268,
     "flag": "https://flagcdn.com/w320/ao.png",
-    "latlng": { "lat": -12.5, "lng": 18.5 }
+    "latlon": { "lat": -12.5, "lon": 18.5 }
   },
   {
     "name": "Antigua and Barbuda",
@@ -63,7 +63,7 @@
     "languages": ["English"],
     "population": 97928,
     "flag": "https://flagcdn.com/w320/ag.png",
-    "latlng": { "lat": 17.05, "lng": -61.8 }
+    "latlon": { "lat": 17.05, "lon": -61.8 }
   },
   {
     "name": "Argentina",
@@ -74,7 +74,7 @@
     "languages": ["Guaraní", "Spanish"],
     "population": 45376763,
     "flag": "https://flagcdn.com/w320/ar.png",
-    "latlng": { "lat": -34, "lng": -64 }
+    "latlon": { "lat": -34, "lon": -64 }
   },
   {
     "name": "Armenia",
@@ -85,7 +85,7 @@
     "languages": ["Armenian"],
     "population": 2963234,
     "flag": "https://flagcdn.com/w320/am.png",
-    "latlng": { "lat": 40, "lng": 45 }
+    "latlon": { "lat": 40, "lon": 45 }
   },
   {
     "name": "Australia",
@@ -96,7 +96,7 @@
     "languages": ["English"],
     "population": 25687041,
     "flag": "https://flagcdn.com/w320/au.png",
-    "latlng": { "lat": -27, "lng": 133 }
+    "latlon": { "lat": -27, "lon": 133 }
   },
   {
     "name": "Austria",
@@ -107,7 +107,7 @@
     "languages": ["German"],
     "population": 8917205,
     "flag": "https://flagcdn.com/w320/at.png",
-    "latlng": { "lat": 47.33333333, "lng": 13.33333333 }
+    "latlon": { "lat": 47.33333333, "lon": 13.33333333 }
   },
   {
     "name": "Azerbaijan",
@@ -118,7 +118,7 @@
     "languages": ["Azerbaijani"],
     "population": 10110116,
     "flag": "https://flagcdn.com/w320/az.png",
-    "latlng": { "lat": 40.5, "lng": 47.5 }
+    "latlon": { "lat": 40.5, "lon": 47.5 }
   },
   {
     "name": "Bahamas",
@@ -129,7 +129,7 @@
     "languages": ["English"],
     "population": 393248,
     "flag": "https://flagcdn.com/w320/bs.png",
-    "latlng": { "lat": 25.0343, "lng": -77.3963 }
+    "latlon": { "lat": 25.0343, "lon": -77.3963 }
   },
   {
     "name": "Bahrain",
@@ -140,7 +140,7 @@
     "languages": ["Arabic"],
     "population": 1701583,
     "flag": "https://flagcdn.com/w320/bh.png",
-    "latlng": { "lat": 26, "lng": 50.55 }
+    "latlon": { "lat": 26, "lon": 50.55 }
   },
   {
     "name": "Bangladesh",
@@ -151,7 +151,7 @@
     "languages": ["Bengali"],
     "population": 164689383,
     "flag": "https://flagcdn.com/w320/bd.png",
-    "latlng": { "lat": 24, "lng": 90 }
+    "latlon": { "lat": 24, "lon": 90 }
   },
   {
     "name": "Barbados",
@@ -162,7 +162,7 @@
     "languages": ["English"],
     "population": 287371,
     "flag": "https://flagcdn.com/w320/bb.png",
-    "latlng": { "lat": 13.16666666, "lng": -59.53333333 }
+    "latlon": { "lat": 13.16666666, "lon": -59.53333333 }
   },
   {
     "name": "Belarus",
@@ -173,7 +173,7 @@
     "languages": ["Belarusian", "Russian"],
     "population": 9398861,
     "flag": "https://flagcdn.com/w320/by.png",
-    "latlng": { "lat": 53, "lng": 28 }
+    "latlon": { "lat": 53, "lon": 28 }
   },
   {
     "name": "Belgium",
@@ -184,7 +184,7 @@
     "languages": ["German", "French", "Dutch"],
     "population": 11555997,
     "flag": "https://flagcdn.com/w320/be.png",
-    "latlng": { "lat": 50.83333333, "lng": 4 }
+    "latlon": { "lat": 50.83333333, "lon": 4 }
   },
   {
     "name": "Belize",
@@ -195,7 +195,7 @@
     "languages": ["Belizean Creole", "English", "Spanish"],
     "population": 397621,
     "flag": "https://flagcdn.com/w320/bz.png",
-    "latlng": { "lat": 17.25, "lng": -88.75 }
+    "latlon": { "lat": 17.25, "lon": -88.75 }
   },
   {
     "name": "Benin",
@@ -206,7 +206,7 @@
     "languages": ["French"],
     "population": 12123198,
     "flag": "https://flagcdn.com/w320/bj.png",
-    "latlng": { "lat": 9.5, "lng": 2.25 }
+    "latlon": { "lat": 9.5, "lon": 2.25 }
   },
   {
     "name": "Bhutan",
@@ -217,7 +217,7 @@
     "languages": ["Dzongkha"],
     "population": 771612,
     "flag": "https://flagcdn.com/w320/bt.png",
-    "latlng": { "lat": 27.5, "lng": 90.5 }
+    "latlon": { "lat": 27.5, "lon": 90.5 }
   },
   {
     "name": "Bolivia",
@@ -228,7 +228,7 @@
     "languages": ["Aymara", "Guaraní", "Quechua", "Spanish"],
     "population": 11673029,
     "flag": "https://flagcdn.com/w320/bo.png",
-    "latlng": { "lat": -17, "lng": -65 }
+    "latlon": { "lat": -17, "lon": -65 }
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -239,7 +239,7 @@
     "languages": ["Bosnian", "Croatian", "Serbian"],
     "population": 3280815,
     "flag": "https://flagcdn.com/w320/ba.png",
-    "latlng": { "lat": 44, "lng": 18 }
+    "latlon": { "lat": 44, "lon": 18 }
   },
   {
     "name": "Botswana",
@@ -250,7 +250,7 @@
     "languages": ["English", "Tswana"],
     "population": 2351625,
     "flag": "https://flagcdn.com/w320/bw.png",
-    "latlng": { "lat": -22, "lng": 24 }
+    "latlon": { "lat": -22, "lon": 24 }
   },
   {
     "name": "Brazil",
@@ -261,7 +261,7 @@
     "languages": ["Portuguese"],
     "population": 212559409,
     "flag": "https://flagcdn.com/w320/br.png",
-    "latlng": { "lat": -10, "lng": -55 }
+    "latlon": { "lat": -10, "lon": -55 }
   },
   {
     "name": "Brunei",
@@ -272,7 +272,7 @@
     "languages": ["Malay"],
     "population": 437483,
     "flag": "https://flagcdn.com/w320/bn.png",
-    "latlng": { "lat": 4.5, "lng": 114.66666666 }
+    "latlon": { "lat": 4.5, "lon": 114.66666666 }
   },
   {
     "name": "Bulgaria",
@@ -283,7 +283,7 @@
     "languages": ["Bulgarian"],
     "population": 6927288,
     "flag": "https://flagcdn.com/w320/bg.png",
-    "latlng": { "lat": 43, "lng": 25 }
+    "latlon": { "lat": 43, "lon": 25 }
   },
   {
     "name": "Burkina Faso",
@@ -294,7 +294,7 @@
     "languages": ["French"],
     "population": 20903278,
     "flag": "https://flagcdn.com/w320/bf.png",
-    "latlng": { "lat": 13, "lng": -2 }
+    "latlon": { "lat": 13, "lon": -2 }
   },
   {
     "name": "Burundi",
@@ -305,7 +305,7 @@
     "languages": ["French", "Kirundi"],
     "population": 11890781,
     "flag": "https://flagcdn.com/w320/bi.png",
-    "latlng": { "lat": -3.5, "lng": 30 }
+    "latlon": { "lat": -3.5, "lon": 30 }
   },
   {
     "name": "Cambodia",
@@ -316,7 +316,7 @@
     "languages": ["Khmer"],
     "population": 16718971,
     "flag": "https://flagcdn.com/w320/kh.png",
-    "latlng": { "lat": 13, "lng": 105 }
+    "latlon": { "lat": 13, "lon": 105 }
   },
   {
     "name": "Cameroon",
@@ -327,7 +327,7 @@
     "languages": ["English", "French"],
     "population": 26545864,
     "flag": "https://flagcdn.com/w320/cm.png",
-    "latlng": { "lat": 6, "lng": 12 }
+    "latlon": { "lat": 6, "lon": 12 }
   },
   {
     "name": "Canada",
@@ -338,7 +338,7 @@
     "languages": ["English", "French"],
     "population": 38005238,
     "flag": "https://flagcdn.com/w320/ca.png",
-    "latlng": { "lat": 60, "lng": -95 }
+    "latlon": { "lat": 60, "lon": -95 }
   },
   {
     "name": "Central African Republic",
@@ -349,7 +349,7 @@
     "languages": ["French", "Sango"],
     "population": 4829764,
     "flag": "https://flagcdn.com/w320/cf.png",
-    "latlng": { "lat": 7, "lng": 21 }
+    "latlon": { "lat": 7, "lon": 21 }
   },
   {
     "name": "Chad",
@@ -360,7 +360,7 @@
     "languages": ["Arabic", "French"],
     "population": 16425859,
     "flag": "https://flagcdn.com/w320/td.png",
-    "latlng": { "lat": 15, "lng": 19 }
+    "latlon": { "lat": 15, "lon": 19 }
   },
   {
     "name": "Chile",
@@ -371,7 +371,7 @@
     "languages": ["Spanish"],
     "population": 19116209,
     "flag": "https://flagcdn.com/w320/cl.png",
-    "latlng": { "lat": -30, "lng": -71 }
+    "latlon": { "lat": -30, "lon": -71 }
   },
   {
     "name": "China",
@@ -382,7 +382,7 @@
     "languages": ["Chinese"],
     "population": 1402112000,
     "flag": "https://flagcdn.com/w320/cn.png",
-    "latlng": { "lat": 35, "lng": 105 }
+    "latlon": { "lat": 35, "lon": 105 }
   },
   {
     "name": "Colombia",
@@ -393,7 +393,7 @@
     "languages": ["Spanish"],
     "population": 50882884,
     "flag": "https://flagcdn.com/w320/co.png",
-    "latlng": { "lat": 4, "lng": -72 }
+    "latlon": { "lat": 4, "lon": -72 }
   },
   {
     "name": "Comoros",
@@ -404,7 +404,7 @@
     "languages": ["Arabic", "French", "Comorian"],
     "population": 869595,
     "flag": "https://flagcdn.com/w320/km.png",
-    "latlng": { "lat": -12.16666666, "lng": 44.25 }
+    "latlon": { "lat": -12.16666666, "lon": 44.25 }
   },
   {
     "name": "Costa Rica",
@@ -415,7 +415,7 @@
     "languages": ["Spanish"],
     "population": 5094114,
     "flag": "https://flagcdn.com/w320/cr.png",
-    "latlng": { "lat": 10, "lng": -84 }
+    "latlon": { "lat": 10, "lon": -84 }
   },
   {
     "name": "Croatia",
@@ -426,7 +426,7 @@
     "languages": ["Croatian"],
     "population": 4047200,
     "flag": "https://flagcdn.com/w320/hr.png",
-    "latlng": { "lat": 45.16666666, "lng": 15.5 }
+    "latlon": { "lat": 45.16666666, "lon": 15.5 }
   },
   {
     "name": "Cuba",
@@ -437,7 +437,7 @@
     "languages": ["Spanish"],
     "population": 11326616,
     "flag": "https://flagcdn.com/w320/cu.png",
-    "latlng": { "lat": 21.5, "lng": -80 }
+    "latlon": { "lat": 21.5, "lon": -80 }
   },
   {
     "name": "Cyprus",
@@ -448,7 +448,7 @@
     "languages": ["Greek", "Turkish"],
     "population": 1207361,
     "flag": "https://flagcdn.com/w320/cy.png",
-    "latlng": { "lat": 35, "lng": 33 }
+    "latlon": { "lat": 35, "lon": 33 }
   },
   {
     "name": "Czechia",
@@ -459,7 +459,7 @@
     "languages": ["Czech", "Slovak"],
     "population": 10698896,
     "flag": "https://flagcdn.com/w320/cz.png",
-    "latlng": { "lat": 49.75, "lng": 15.5 }
+    "latlon": { "lat": 49.75, "lon": 15.5 }
   },
   {
     "name": "Denmark",
@@ -470,7 +470,7 @@
     "languages": ["Danish"],
     "population": 5831404,
     "flag": "https://flagcdn.com/w320/dk.png",
-    "latlng": { "lat": 56, "lng": 10 }
+    "latlon": { "lat": 56, "lon": 10 }
   },
   {
     "name": "Djibouti",
@@ -481,7 +481,7 @@
     "languages": ["Arabic", "French"],
     "population": 988002,
     "flag": "https://flagcdn.com/w320/dj.png",
-    "latlng": { "lat": 11.5, "lng": 43 }
+    "latlon": { "lat": 11.5, "lon": 43 }
   },
   {
     "name": "Dominica",
@@ -492,7 +492,7 @@
     "languages": ["English"],
     "population": 71991,
     "flag": "https://flagcdn.com/w320/dm.png",
-    "latlng": { "lat": 15.41666666, "lng": -61.33333333 }
+    "latlon": { "lat": 15.41666666, "lon": -61.33333333 }
   },
   {
     "name": "Dominican Republic",
@@ -503,7 +503,7 @@
     "languages": ["Spanish"],
     "population": 10847904,
     "flag": "https://flagcdn.com/w320/do.png",
-    "latlng": { "lat": 19, "lng": -70.66666666 }
+    "latlon": { "lat": 19, "lon": -70.66666666 }
   },
   {
     "name": "Ecuador",
@@ -514,7 +514,7 @@
     "languages": ["Spanish"],
     "population": 17643060,
     "flag": "https://flagcdn.com/w320/ec.png",
-    "latlng": { "lat": -2, "lng": -77.5 }
+    "latlon": { "lat": -2, "lon": -77.5 }
   },
   {
     "name": "Egypt",
@@ -525,7 +525,7 @@
     "languages": ["Arabic"],
     "population": 102334403,
     "flag": "https://flagcdn.com/w320/eg.png",
-    "latlng": { "lat": 27, "lng": 30 }
+    "latlon": { "lat": 27, "lon": 30 }
   },
   {
     "name": "El Salvador",
@@ -536,7 +536,7 @@
     "languages": ["Spanish"],
     "population": 6486201,
     "flag": "https://flagcdn.com/w320/sv.png",
-    "latlng": { "lat": 13.83333333, "lng": -88.91666666 }
+    "latlon": { "lat": 13.83333333, "lon": -88.91666666 }
   },
   {
     "name": "Equatorial Guinea",
@@ -547,7 +547,7 @@
     "languages": ["French", "Portuguese", "Spanish"],
     "population": 1402985,
     "flag": "https://flagcdn.com/w320/gq.png",
-    "latlng": { "lat": 2, "lng": 10 }
+    "latlon": { "lat": 2, "lon": 10 }
   },
   {
     "name": "Eritrea",
@@ -558,7 +558,7 @@
     "languages": ["Arabic", "English", "Tigrinya"],
     "population": 5352000,
     "flag": "https://flagcdn.com/w320/er.png",
-    "latlng": { "lat": 15, "lng": 39 }
+    "latlon": { "lat": 15, "lon": 39 }
   },
   {
     "name": "Estonia",
@@ -569,7 +569,7 @@
     "languages": ["Estonian"],
     "population": 1331057,
     "flag": "https://flagcdn.com/w320/ee.png",
-    "latlng": { "lat": 59, "lng": 26 }
+    "latlon": { "lat": 59, "lon": 26 }
   },
   {
     "name": "Eswatini",
@@ -580,7 +580,7 @@
     "languages": ["English", "Swazi"],
     "population": 1160164,
     "flag": "https://flagcdn.com/w320/sz.png",
-    "latlng": { "lat": -26.5, "lng": 31.5 }
+    "latlon": { "lat": -26.5, "lon": 31.5 }
   },
   {
     "name": "Ethiopia",
@@ -591,7 +591,7 @@
     "languages": ["Amharic"],
     "population": 114963583,
     "flag": "https://flagcdn.com/w320/et.png",
-    "latlng": { "lat": 8, "lng": 38 }
+    "latlon": { "lat": 8, "lon": 38 }
   },
   {
     "name": "Fiji",
@@ -602,7 +602,7 @@
     "languages": ["English", "Fijian", "Fiji Hindi"],
     "population": 896444,
     "flag": "https://flagcdn.com/w320/fj.png",
-    "latlng": { "lat": 17.7134, "lng": 178.065 }
+    "latlon": { "lat": 17.7134, "lon": 178.065 }
   },
   {
     "name": "Finland",
@@ -613,7 +613,7 @@
     "languages": ["Finnish", "Swedish"],
     "population": 5530719,
     "flag": "https://flagcdn.com/w320/fi.png",
-    "latlng": { "lat": 64, "lng": 26 }
+    "latlon": { "lat": 64, "lon": 26 }
   },
   {
     "name": "France",
@@ -624,7 +624,7 @@
     "languages": ["French"],
     "population": 67391582,
     "flag": "https://flagcdn.com/w320/fr.png",
-    "latlng": { "lat": 46, "lng": 2 }
+    "latlon": { "lat": 46, "lon": 2 }
   },
   {
     "name": "Gabon",
@@ -635,7 +635,7 @@
     "languages": ["French"],
     "population": 2225728,
     "flag": "https://flagcdn.com/w320/ga.png",
-    "latlng": { "lat": -1, "lng": 11.75 }
+    "latlon": { "lat": -1, "lon": 11.75 }
   },
   {
     "name": "Gambia",
@@ -646,7 +646,7 @@
     "languages": ["English"],
     "population": 2416664,
     "flag": "https://flagcdn.com/w320/gm.png",
-    "latlng": { "lat": 13.46666666, "lng": -16.56666666 }
+    "latlon": { "lat": 13.46666666, "lon": -16.56666666 }
   },
   {
     "name": "Georgia",
@@ -657,7 +657,7 @@
     "languages": ["Georgian"],
     "population": 3714000,
     "flag": "https://flagcdn.com/w320/ge.png",
-    "latlng": { "lat": 42, "lng": 43.5 }
+    "latlon": { "lat": 42, "lon": 43.5 }
   },
   {
     "name": "Germany",
@@ -668,7 +668,7 @@
     "languages": ["German"],
     "population": 83240525,
     "flag": "https://flagcdn.com/w320/de.png",
-    "latlng": { "lat": 51, "lng": 9 }
+    "latlon": { "lat": 51, "lon": 9 }
   },
   {
     "name": "Ghana",
@@ -679,7 +679,7 @@
     "languages": ["English"],
     "population": 31072945,
     "flag": "https://flagcdn.com/w320/gh.png",
-    "latlng": { "lat": 8, "lng": -2 }
+    "latlon": { "lat": 8, "lon": -2 }
   },
   {
     "name": "Greece",
@@ -690,7 +690,7 @@
     "languages": ["Greek"],
     "population": 10715549,
     "flag": "https://flagcdn.com/w320/gr.png",
-    "latlng": { "lat": 39, "lng": 22 }
+    "latlon": { "lat": 39, "lon": 22 }
   },
   {
     "name": "Grenada",
@@ -701,7 +701,7 @@
     "languages": ["English"],
     "population": 112519,
     "flag": "https://flagcdn.com/w320/gd.png",
-    "latlng": { "lat": 12.11666666, "lng": -61.66666666 }
+    "latlon": { "lat": 12.11666666, "lon": -61.66666666 }
   },
   {
     "name": "Guatemala",
@@ -712,7 +712,7 @@
     "languages": ["Spanish"],
     "population": 16858333,
     "flag": "https://flagcdn.com/w320/gt.png",
-    "latlng": { "lat": 15.5, "lng": -90.25 }
+    "latlon": { "lat": 15.5, "lon": -90.25 }
   },
   {
     "name": "Guinea-Bissau",
@@ -723,7 +723,7 @@
     "languages": ["Portuguese", "Upper Guinea Creole"],
     "population": 1967998,
     "flag": "https://flagcdn.com/w320/gw.png",
-    "latlng": { "lat": 12, "lng": -15 }
+    "latlon": { "lat": 12, "lon": -15 }
   },
   {
     "name": "Guinea",
@@ -734,7 +734,7 @@
     "languages": ["French"],
     "population": 13132792,
     "flag": "https://flagcdn.com/w320/gn.png",
-    "latlng": { "lat": 11, "lng": -10 }
+    "latlon": { "lat": 11, "lon": -10 }
   },
   {
     "name": "Guyana",
@@ -745,7 +745,7 @@
     "languages": ["English"],
     "population": 786559,
     "flag": "https://flagcdn.com/w320/gy.png",
-    "latlng": { "lat": 5, "lng": -59 }
+    "latlon": { "lat": 5, "lon": -59 }
   },
   {
     "name": "Haiti",
@@ -756,7 +756,7 @@
     "languages": ["French", "Haitian Creole"],
     "population": 11402533,
     "flag": "https://flagcdn.com/w320/ht.png",
-    "latlng": { "lat": 19, "lng": -72.41666666 }
+    "latlon": { "lat": 19, "lon": -72.41666666 }
   },
   {
     "name": "Honduras",
@@ -767,7 +767,7 @@
     "languages": ["Spanish"],
     "population": 9904608,
     "flag": "https://flagcdn.com/w320/hn.png",
-    "latlng": { "lat": 15, "lng": -86.5 }
+    "latlon": { "lat": 15, "lon": -86.5 }
   },
   {
     "name": "Hungary",
@@ -778,7 +778,7 @@
     "languages": ["Hungarian"],
     "population": 9749763,
     "flag": "https://flagcdn.com/w320/hu.png",
-    "latlng": { "lat": 47, "lng": 20 }
+    "latlon": { "lat": 47, "lon": 20 }
   },
   {
     "name": "Iceland",
@@ -789,7 +789,7 @@
     "languages": ["Icelandic"],
     "population": 366425,
     "flag": "https://flagcdn.com/w320/is.png",
-    "latlng": { "lat": 65, "lng": -18 }
+    "latlon": { "lat": 65, "lon": -18 }
   },
   {
     "name": "India",
@@ -800,7 +800,7 @@
     "languages": ["English", "Hindi", "Tamil"],
     "population": 1380004385,
     "flag": "https://flagcdn.com/w320/in.png",
-    "latlng": { "lat": 20, "lng": 77 }
+    "latlon": { "lat": 20, "lon": 77 }
   },
   {
     "name": "Indonesia",
@@ -811,7 +811,7 @@
     "languages": ["Indonesian"],
     "population": 273523621,
     "flag": "https://flagcdn.com/w320/id.png",
-    "latlng": { "lat": -5, "lng": 120 }
+    "latlon": { "lat": -5, "lon": 120 }
   },
   {
     "name": "Iran",
@@ -822,7 +822,7 @@
     "languages": ["Persian (Farsi)"],
     "population": 83992953,
     "flag": "https://flagcdn.com/w320/ir.png",
-    "latlng": { "lat": 32, "lng": 53 }
+    "latlon": { "lat": 32, "lon": 53 }
   },
   {
     "name": "Iraq",
@@ -833,7 +833,7 @@
     "languages": ["Arabic", "Aramaic", "Sorani"],
     "population": 40222503,
     "flag": "https://flagcdn.com/w320/iq.png",
-    "latlng": { "lat": 33, "lng": 44 }
+    "latlon": { "lat": 33, "lon": 44 }
   },
   {
     "name": "Ireland",
@@ -844,7 +844,7 @@
     "languages": ["English", "Irish"],
     "population": 4994724,
     "flag": "https://flagcdn.com/w320/ie.png",
-    "latlng": { "lat": 53, "lng": -8 }
+    "latlon": { "lat": 53, "lon": -8 }
   },
   {
     "name": "Israel",
@@ -855,7 +855,7 @@
     "languages": ["Arabic", "Hebrew"],
     "population": 9216900,
     "flag": "https://flagcdn.com/w320/il.png",
-    "latlng": { "lat": 31.47, "lng": 35.13 }
+    "latlon": { "lat": 31.47, "lon": 35.13 }
   },
   {
     "name": "Italy",
@@ -866,7 +866,7 @@
     "languages": ["Italian"],
     "population": 59554023,
     "flag": "https://flagcdn.com/w320/it.png",
-    "latlng": { "lat": 42.83333333, "lng": 12.83333333 }
+    "latlon": { "lat": 42.83333333, "lon": 12.83333333 }
   },
   {
     "name": "Jamaica",
@@ -877,7 +877,7 @@
     "languages": ["English", "Jamaican Patois"],
     "population": 2961161,
     "flag": "https://flagcdn.com/w320/jm.png",
-    "latlng": { "lat": 18.25, "lng": -77.5 }
+    "latlon": { "lat": 18.25, "lon": -77.5 }
   },
   {
     "name": "Japan",
@@ -888,7 +888,7 @@
     "languages": ["Japanese"],
     "population": 125836021,
     "flag": "https://flagcdn.com/w320/jp.png",
-    "latlng": { "lat": 36, "lng": 138 }
+    "latlon": { "lat": 36, "lon": 138 }
   },
   {
     "name": "Jordan",
@@ -899,7 +899,7 @@
     "languages": ["Arabic"],
     "population": 10203140,
     "flag": "https://flagcdn.com/w320/jo.png",
-    "latlng": { "lat": 31, "lng": 36 }
+    "latlon": { "lat": 31, "lon": 36 }
   },
   {
     "name": "Kazakhstan",
@@ -910,7 +910,7 @@
     "languages": ["Kazakh", "Russian"],
     "population": 18754440,
     "flag": "https://flagcdn.com/w320/kz.png",
-    "latlng": { "lat": 48.0196, "lng": 66.9237 }
+    "latlon": { "lat": 48.0196, "lon": 66.9237 }
   },
   {
     "name": "Kenya",
@@ -921,7 +921,7 @@
     "languages": ["English", "Swahili"],
     "population": 53771300,
     "flag": "https://flagcdn.com/w320/ke.png",
-    "latlng": { "lat": 1, "lng": 38 }
+    "latlon": { "lat": 1, "lon": 38 }
   },
   {
     "name": "Kiribati",
@@ -932,7 +932,7 @@
     "languages": ["English", "Gilbertese"],
     "population": 119446,
     "flag": "https://flagcdn.com/w320/ki.png",
-    "latlng": { "lat": 1.41666666, "lng": 173 }
+    "latlon": { "lat": 1.41666666, "lon": 173 }
   },
   {
     "name": "Kosovo",
@@ -943,7 +943,7 @@
     "languages": ["Albanian", "Serbian"],
     "population": 1775378,
     "flag": "https://flagcdn.com/w320/xk.png",
-    "latlng": { "lat": 42.666667, "lng": 21.166667 }
+    "latlon": { "lat": 42.666667, "lon": 21.166667 }
   },
   {
     "name": "Kuwait",
@@ -954,7 +954,7 @@
     "languages": ["Arabic"],
     "population": 4270563,
     "flag": "https://flagcdn.com/w320/kw.png",
-    "latlng": { "lat": 29.5, "lng": 45.75 }
+    "latlon": { "lat": 29.5, "lon": 45.75 }
   },
   {
     "name": "Kyrgyzstan",
@@ -965,7 +965,7 @@
     "languages": ["Kyrgyz", "Russian"],
     "population": 6591600,
     "flag": "https://flagcdn.com/w320/kg.png",
-    "latlng": { "lat": 41, "lng": 75 }
+    "latlon": { "lat": 41, "lon": 75 }
   },
   {
     "name": "Laos",
@@ -976,7 +976,7 @@
     "languages": ["Lao"],
     "population": 7275556,
     "flag": "https://flagcdn.com/w320/la.png",
-    "latlng": { "lat": 18, "lng": 105 }
+    "latlon": { "lat": 18, "lon": 105 }
   },
   {
     "name": "Latvia",
@@ -987,7 +987,7 @@
     "languages": ["Latvian"],
     "population": 1901548,
     "flag": "https://flagcdn.com/w320/lv.png",
-    "latlng": { "lat": 57, "lng": 25 }
+    "latlon": { "lat": 57, "lon": 25 }
   },
   {
     "name": "Lebanon",
@@ -998,7 +998,7 @@
     "languages": ["Arabic", "French"],
     "population": 6825442,
     "flag": "https://flagcdn.com/w320/lb.png",
-    "latlng": { "lat": 33.83333333, "lng": 35.83333333 }
+    "latlon": { "lat": 33.83333333, "lon": 35.83333333 }
   },
   {
     "name": "Lesotho",
@@ -1009,7 +1009,7 @@
     "languages": ["English", "Sotho"],
     "population": 2142252,
     "flag": "https://flagcdn.com/w320/ls.png",
-    "latlng": { "lat": -29.5, "lng": 28.5 }
+    "latlon": { "lat": -29.5, "lon": 28.5 }
   },
   {
     "name": "Liberia",
@@ -1020,7 +1020,7 @@
     "languages": ["English"],
     "population": 5057677,
     "flag": "https://flagcdn.com/w320/lr.png",
-    "latlng": { "lat": 6.5, "lng": -9.5 }
+    "latlon": { "lat": 6.5, "lon": -9.5 }
   },
   {
     "name": "Libya",
@@ -1031,7 +1031,7 @@
     "languages": ["Arabic"],
     "population": 6871287,
     "flag": "https://flagcdn.com/w320/ly.png",
-    "latlng": { "lat": 25, "lng": 17 }
+    "latlon": { "lat": 25, "lon": 17 }
   },
   {
     "name": "Liechtenstein",
@@ -1042,7 +1042,7 @@
     "languages": ["German"],
     "population": 38137,
     "flag": "https://flagcdn.com/w320/li.png",
-    "latlng": { "lat": 47.26666666, "lng": 9.53333333 }
+    "latlon": { "lat": 47.26666666, "lon": 9.53333333 }
   },
   {
     "name": "Lithuania",
@@ -1053,7 +1053,7 @@
     "languages": ["Lithuanian"],
     "population": 2794700,
     "flag": "https://flagcdn.com/w320/lt.png",
-    "latlng": { "lat": 56, "lng": 24 }
+    "latlon": { "lat": 56, "lon": 24 }
   },
   {
     "name": "Luxembourg",
@@ -1064,7 +1064,7 @@
     "languages": ["German", "French", "Luxembourgish"],
     "population": 632275,
     "flag": "https://flagcdn.com/w320/lu.png",
-    "latlng": { "lat": 49.75, "lng": 6.16666666 }
+    "latlon": { "lat": 49.75, "lon": 6.16666666 }
   },
   {
     "name": "Madagascar",
@@ -1075,7 +1075,7 @@
     "languages": ["French", "Malagasy"],
     "population": 27691019,
     "flag": "https://flagcdn.com/w320/mg.png",
-    "latlng": { "lat": -20, "lng": 47 }
+    "latlon": { "lat": -20, "lon": 47 }
   },
   {
     "name": "Malawi",
@@ -1086,7 +1086,7 @@
     "languages": ["English", "Chewa"],
     "population": 19129955,
     "flag": "https://flagcdn.com/w320/mw.png",
-    "latlng": { "lat": -13.5, "lng": 34 }
+    "latlon": { "lat": -13.5, "lon": 34 }
   },
   {
     "name": "Malaysia",
@@ -1097,7 +1097,7 @@
     "languages": ["English", "Malay"],
     "population": 32365998,
     "flag": "https://flagcdn.com/w320/my.png",
-    "latlng": { "lat": 2.5, "lng": 112.5 }
+    "latlon": { "lat": 2.5, "lon": 112.5 }
   },
   {
     "name": "Maldives",
@@ -1108,7 +1108,7 @@
     "languages": ["Maldivian"],
     "population": 540542,
     "flag": "https://flagcdn.com/w320/mv.png",
-    "latlng": { "lat": 3.25, "lng": 73 }
+    "latlon": { "lat": 3.25, "lon": 73 }
   },
   {
     "name": "Mali",
@@ -1119,7 +1119,7 @@
     "languages": ["French"],
     "population": 20250834,
     "flag": "https://flagcdn.com/w320/ml.png",
-    "latlng": { "lat": 17, "lng": -4 }
+    "latlon": { "lat": 17, "lon": -4 }
   },
   {
     "name": "Malta",
@@ -1130,7 +1130,7 @@
     "languages": ["English", "Maltese"],
     "population": 525285,
     "flag": "https://flagcdn.com/w320/mt.png",
-    "latlng": { "lat": 35.9375, "lng": 14.3754 }
+    "latlon": { "lat": 35.9375, "lon": 14.3754 }
   },
   {
     "name": "Marshall Islands",
@@ -1141,7 +1141,7 @@
     "languages": ["English", "Marshallese"],
     "population": 59194,
     "flag": "https://flagcdn.com/w320/mh.png",
-    "latlng": { "lat": 9, "lng": 168 }
+    "latlon": { "lat": 9, "lon": 168 }
   },
   {
     "name": "Mauritania",
@@ -1152,7 +1152,7 @@
     "languages": ["Arabic"],
     "population": 4649660,
     "flag": "https://flagcdn.com/w320/mr.png",
-    "latlng": { "lat": 20, "lng": -12 }
+    "latlon": { "lat": 20, "lon": -12 }
   },
   {
     "name": "Mauritius",
@@ -1163,7 +1163,7 @@
     "languages": ["English", "French", "Mauritian Creole"],
     "population": 1265740,
     "flag": "https://flagcdn.com/w320/mu.png",
-    "latlng": { "lat": -20.28333333, "lng": 57.55 }
+    "latlon": { "lat": -20.28333333, "lon": 57.55 }
   },
   {
     "name": "Mexico",
@@ -1174,7 +1174,7 @@
     "languages": ["Spanish"],
     "population": 128932753,
     "flag": "https://flagcdn.com/w320/mx.png",
-    "latlng": { "lat": 23, "lng": -102 }
+    "latlon": { "lat": 23, "lon": -102 }
   },
   {
     "name": "Micronesia",
@@ -1185,7 +1185,7 @@
     "languages": ["English"],
     "population": 115021,
     "flag": "https://flagcdn.com/w320/fm.png",
-    "latlng": { "lat": 6.91666666, "lng": 158.25 }
+    "latlon": { "lat": 6.91666666, "lon": 158.25 }
   },
   {
     "name": "Moldova",
@@ -1196,7 +1196,7 @@
     "languages": ["Romanian"],
     "population": 2617820,
     "flag": "https://flagcdn.com/w320/md.png",
-    "latlng": { "lat": 47, "lng": 29 }
+    "latlon": { "lat": 47, "lon": 29 }
   },
   {
     "name": "Monaco",
@@ -1207,7 +1207,7 @@
     "languages": ["French"],
     "population": 39244,
     "flag": "https://flagcdn.com/w320/mc.png",
-    "latlng": { "lat": 43.73333333, "lng": 7.4 }
+    "latlon": { "lat": 43.73333333, "lon": 7.4 }
   },
   {
     "name": "Mongolia",
@@ -1218,7 +1218,7 @@
     "languages": ["Mongolian"],
     "population": 3278292,
     "flag": "https://flagcdn.com/w320/mn.png",
-    "latlng": { "lat": 46, "lng": 105 }
+    "latlon": { "lat": 46, "lon": 105 }
   },
   {
     "name": "Montenegro",
@@ -1229,7 +1229,7 @@
     "languages": ["Montenegrin"],
     "population": 621718,
     "flag": "https://flagcdn.com/w320/me.png",
-    "latlng": { "lat": 42.5, "lng": 19.3 }
+    "latlon": { "lat": 42.5, "lon": 19.3 }
   },
   {
     "name": "Morocco",
@@ -1240,7 +1240,7 @@
     "languages": ["Arabic", "Berber"],
     "population": 36910558,
     "flag": "https://flagcdn.com/w320/ma.png",
-    "latlng": { "lat": 32, "lng": -5 }
+    "latlon": { "lat": 32, "lon": -5 }
   },
   {
     "name": "Mozambique",
@@ -1251,7 +1251,7 @@
     "languages": ["Portuguese"],
     "population": 31255435,
     "flag": "https://flagcdn.com/w320/mz.png",
-    "latlng": { "lat": -18.25, "lng": 35 }
+    "latlon": { "lat": -18.25, "lon": 35 }
   },
   {
     "name": "Namibia",
@@ -1272,7 +1272,7 @@
     ],
     "population": 2540916,
     "flag": "https://flagcdn.com/w320/na.png",
-    "latlng": { "lat": -22, "lng": 17 }
+    "latlon": { "lat": -22, "lon": 17 }
   },
   {
     "name": "Nauru",
@@ -1283,7 +1283,7 @@
     "languages": ["English", "Nauru"],
     "population": 10834,
     "flag": "https://flagcdn.com/w320/nr.png",
-    "latlng": { "lat": -0.53333333, "lng": 166.91666666 }
+    "latlon": { "lat": -0.53333333, "lon": 166.91666666 }
   },
   {
     "name": "Nepal",
@@ -1294,7 +1294,7 @@
     "languages": ["Nepali"],
     "population": 29136808,
     "flag": "https://flagcdn.com/w320/np.png",
-    "latlng": { "lat": 28, "lng": 84 }
+    "latlon": { "lat": 28, "lon": 84 }
   },
   {
     "name": "Netherlands",
@@ -1305,7 +1305,7 @@
     "languages": ["Dutch"],
     "population": 16655799,
     "flag": "https://flagcdn.com/w320/nl.png",
-    "latlng": { "lat": 52.5, "lng": 5.75 }
+    "latlon": { "lat": 52.5, "lon": 5.75 }
   },
   {
     "name": "New Zealand",
@@ -1316,7 +1316,7 @@
     "languages": ["English", "Māori", "New Zealand Sign Language"],
     "population": 5084300,
     "flag": "https://flagcdn.com/w320/nz.png",
-    "latlng": { "lat": -41, "lng": 174 }
+    "latlon": { "lat": -41, "lon": 174 }
   },
   {
     "name": "Nicaragua",
@@ -1327,7 +1327,7 @@
     "languages": ["Spanish"],
     "population": 6624554,
     "flag": "https://flagcdn.com/w320/ni.png",
-    "latlng": { "lat": 13, "lng": -85 }
+    "latlon": { "lat": 13, "lon": -85 }
   },
   {
     "name": "Niger",
@@ -1338,7 +1338,7 @@
     "languages": ["French"],
     "population": 24206636,
     "flag": "https://flagcdn.com/w320/ne.png",
-    "latlng": { "lat": 16, "lng": 8 }
+    "latlon": { "lat": 16, "lon": 8 }
   },
   {
     "name": "Nigeria",
@@ -1349,7 +1349,7 @@
     "languages": ["English"],
     "population": 206139587,
     "flag": "https://flagcdn.com/w320/ng.png",
-    "latlng": { "lat": 10, "lng": 8 }
+    "latlon": { "lat": 10, "lon": 8 }
   },
   {
     "name": "North Macedonia",
@@ -1360,7 +1360,7 @@
     "languages": ["Macedonian"],
     "population": 2077132,
     "flag": "https://flagcdn.com/w320/mk.png",
-    "latlng": { "lat": 41.83333333, "lng": 22 }
+    "latlon": { "lat": 41.83333333, "lon": 22 }
   },
   {
     "name": "Norway",
@@ -1371,7 +1371,7 @@
     "languages": ["Norwegian Nynorsk", "Norwegian Bokmål", "Sami"],
     "population": 5379475,
     "flag": "https://flagcdn.com/w320/no.png",
-    "latlng": { "lat": 62, "lng": 10 }
+    "latlon": { "lat": 62, "lon": 10 }
   },
   {
     "name": "Oman",
@@ -1382,7 +1382,7 @@
     "languages": ["Arabic"],
     "population": 5106622,
     "flag": "https://flagcdn.com/w320/om.png",
-    "latlng": { "lat": 21, "lng": 57 }
+    "latlon": { "lat": 21, "lon": 57 }
   },
   {
     "name": "Pakistan",
@@ -1393,7 +1393,7 @@
     "languages": ["English", "Urdu"],
     "population": 220892331,
     "flag": "https://flagcdn.com/w320/pk.png",
-    "latlng": { "lat": 30, "lng": 70 }
+    "latlon": { "lat": 30, "lon": 70 }
   },
   {
     "name": "Palau",
@@ -1404,7 +1404,7 @@
     "languages": ["English", "Palauan"],
     "population": 18092,
     "flag": "https://flagcdn.com/w320/pw.png",
-    "latlng": { "lat": 7.5, "lng": 134.5 }
+    "latlon": { "lat": 7.5, "lon": 134.5 }
   },
   {
     "name": "Panama",
@@ -1415,7 +1415,7 @@
     "languages": ["Spanish"],
     "population": 4314768,
     "flag": "https://flagcdn.com/w320/pa.png",
-    "latlng": { "lat": 9, "lng": -80 }
+    "latlon": { "lat": 9, "lon": -80 }
   },
   {
     "name": "Papua New Guinea",
@@ -1426,7 +1426,7 @@
     "languages": ["English", "Hiri Motu", "Tok Pisin"],
     "population": 8947027,
     "flag": "https://flagcdn.com/w320/pg.png",
-    "latlng": { "lat": -6, "lng": 147 }
+    "latlon": { "lat": -6, "lon": 147 }
   },
   {
     "name": "Paraguay",
@@ -1437,7 +1437,7 @@
     "languages": ["Guaraní", "Spanish"],
     "population": 7132530,
     "flag": "https://flagcdn.com/w320/py.png",
-    "latlng": { "lat": -23, "lng": -58 }
+    "latlon": { "lat": -23, "lon": -58 }
   },
   {
     "name": "Peru",
@@ -1448,7 +1448,7 @@
     "languages": ["Aymara", "Quechua", "Spanish"],
     "population": 32971846,
     "flag": "https://flagcdn.com/w320/pe.png",
-    "latlng": { "lat": -10, "lng": -76 }
+    "latlon": { "lat": -10, "lon": -76 }
   },
   {
     "name": "Philippines",
@@ -1459,7 +1459,7 @@
     "languages": ["English", "Filipino"],
     "population": 109581085,
     "flag": "https://flagcdn.com/w320/ph.png",
-    "latlng": { "lat": 13, "lng": 122 }
+    "latlon": { "lat": 13, "lon": 122 }
   },
   {
     "name": "Poland",
@@ -1470,7 +1470,7 @@
     "languages": ["Polish"],
     "population": 37950802,
     "flag": "https://flagcdn.com/w320/pl.png",
-    "latlng": { "lat": 52, "lng": 20 }
+    "latlon": { "lat": 52, "lon": 20 }
   },
   {
     "name": "Portugal",
@@ -1481,7 +1481,7 @@
     "languages": ["Portuguese"],
     "population": 10305564,
     "flag": "https://flagcdn.com/w320/pt.png",
-    "latlng": { "lat": 39.5, "lng": -8 }
+    "latlon": { "lat": 39.5, "lon": -8 }
   },
   {
     "name": "Qatar",
@@ -1492,7 +1492,7 @@
     "languages": ["Arabic"],
     "population": 2881060,
     "flag": "https://flagcdn.com/w320/qa.png",
-    "latlng": { "lat": 25.5, "lng": 51.25 }
+    "latlon": { "lat": 25.5, "lon": 51.25 }
   },
   {
     "name": "Romania",
@@ -1503,7 +1503,7 @@
     "languages": ["Romanian"],
     "population": 19286123,
     "flag": "https://flagcdn.com/w320/ro.png",
-    "latlng": { "lat": 46, "lng": 25 }
+    "latlon": { "lat": 46, "lon": 25 }
   },
   {
     "name": "Russia",
@@ -1514,7 +1514,7 @@
     "languages": ["Russian"],
     "population": 144104080,
     "flag": "https://flagcdn.com/w320/ru.png",
-    "latlng": { "lat": 60, "lng": 100 }
+    "latlon": { "lat": 60, "lon": 100 }
   },
   {
     "name": "Rwanda",
@@ -1525,7 +1525,7 @@
     "languages": ["English", "French", "Kinyarwanda"],
     "population": 12952209,
     "flag": "https://flagcdn.com/w320/rw.png",
-    "latlng": { "lat": -2, "lng": 30 }
+    "latlon": { "lat": -2, "lon": 30 }
   },
   {
     "name": "Saint Kitts and Nevis",
@@ -1536,7 +1536,7 @@
     "languages": ["English"],
     "population": 53192,
     "flag": "https://flagcdn.com/w320/kn.png",
-    "latlng": { "lat": 17.33333333, "lng": -62.75 }
+    "latlon": { "lat": 17.33333333, "lon": -62.75 }
   },
   {
     "name": "Saint Lucia",
@@ -1547,7 +1547,7 @@
     "languages": ["English"],
     "population": 183629,
     "flag": "https://flagcdn.com/w320/lc.png",
-    "latlng": { "lat": 13.88333333, "lng": -60.96666666 }
+    "latlon": { "lat": 13.88333333, "lon": -60.96666666 }
   },
   {
     "name": "Saint Vincent and the Grenadines",
@@ -1558,7 +1558,7 @@
     "languages": ["English"],
     "population": 110947,
     "flag": "https://flagcdn.com/w320/vc.png",
-    "latlng": { "lat": 13.25, "lng": -61.2 }
+    "latlon": { "lat": 13.25, "lon": -61.2 }
   },
   {
     "name": "Samoa",
@@ -1569,7 +1569,7 @@
     "languages": ["English", "Samoan"],
     "population": 198410,
     "flag": "https://flagcdn.com/w320/ws.png",
-    "latlng": { "lat": -13.58333333, "lng": -172.33333333 }
+    "latlon": { "lat": -13.58333333, "lon": -172.33333333 }
   },
   {
     "name": "San Marino",
@@ -1580,7 +1580,7 @@
     "languages": ["Italian"],
     "population": 33938,
     "flag": "https://flagcdn.com/w320/sm.png",
-    "latlng": { "lat": 43.76666666, "lng": 12.41666666 }
+    "latlon": { "lat": 43.76666666, "lon": 12.41666666 }
   },
   {
     "name": "Saudi Arabia",
@@ -1591,7 +1591,7 @@
     "languages": ["Arabic"],
     "population": 34813867,
     "flag": "https://flagcdn.com/w320/sa.png",
-    "latlng": { "lat": 25, "lng": 45 }
+    "latlon": { "lat": 25, "lon": 45 }
   },
   {
     "name": "Senegal",
@@ -1602,7 +1602,7 @@
     "languages": ["French"],
     "population": 16743930,
     "flag": "https://flagcdn.com/w320/sn.png",
-    "latlng": { "lat": 14, "lng": -14 }
+    "latlon": { "lat": 14, "lon": -14 }
   },
   {
     "name": "Serbia",
@@ -1613,7 +1613,7 @@
     "languages": ["Serbian"],
     "population": 6908224,
     "flag": "https://flagcdn.com/w320/rs.png",
-    "latlng": { "lat": 44, "lng": 21 }
+    "latlon": { "lat": 44, "lon": 21 }
   },
   {
     "name": "Seychelles",
@@ -1624,7 +1624,7 @@
     "languages": ["Seychellois Creole", "English", "French"],
     "population": 98462,
     "flag": "https://flagcdn.com/w320/sc.png",
-    "latlng": { "lat": -4.58333333, "lng": 55.66666666 }
+    "latlon": { "lat": -4.58333333, "lon": 55.66666666 }
   },
   {
     "name": "Sierra Leone",
@@ -1635,7 +1635,7 @@
     "languages": ["English"],
     "population": 7976985,
     "flag": "https://flagcdn.com/w320/sl.png",
-    "latlng": { "lat": 8.5, "lng": -11.5 }
+    "latlon": { "lat": 8.5, "lon": -11.5 }
   },
   {
     "name": "Singapore",
@@ -1646,7 +1646,7 @@
     "languages": ["Chinese", "English", "Malay", "Tamil"],
     "population": 5685807,
     "flag": "https://flagcdn.com/w320/sg.png",
-    "latlng": { "lat": 1.36666666, "lng": 103.8 }
+    "latlon": { "lat": 1.36666666, "lon": 103.8 }
   },
   {
     "name": "Slovakia",
@@ -1657,7 +1657,7 @@
     "languages": ["Slovak"],
     "population": 5458827,
     "flag": "https://flagcdn.com/w320/sk.png",
-    "latlng": { "lat": 48.66666666, "lng": 19.5 }
+    "latlon": { "lat": 48.66666666, "lon": 19.5 }
   },
   {
     "name": "Slovenia",
@@ -1668,7 +1668,7 @@
     "languages": ["Slovene"],
     "population": 2100126,
     "flag": "https://flagcdn.com/w320/si.png",
-    "latlng": { "lat": 46.11666666, "lng": 14.81666666 }
+    "latlon": { "lat": 46.11666666, "lon": 14.81666666 }
   },
   {
     "name": "Solomon Islands",
@@ -1679,7 +1679,7 @@
     "languages": ["English"],
     "population": 686878,
     "flag": "https://flagcdn.com/w320/sb.png",
-    "latlng": { "lat": -8, "lng": 159 }
+    "latlon": { "lat": -8, "lon": 159 }
   },
   {
     "name": "Somalia",
@@ -1690,7 +1690,7 @@
     "languages": ["Arabic", "Somali"],
     "population": 15893219,
     "flag": "https://flagcdn.com/w320/so.png",
-    "latlng": { "lat": 10, "lng": 49 }
+    "latlon": { "lat": 10, "lon": 49 }
   },
   {
     "name": "South Africa",
@@ -1713,7 +1713,7 @@
     ],
     "population": 59308690,
     "flag": "https://flagcdn.com/w320/za.png",
-    "latlng": { "lat": -29, "lng": 24 }
+    "latlon": { "lat": -29, "lon": 24 }
   },
   {
     "name": "South Sudan",
@@ -1724,7 +1724,7 @@
     "languages": ["English"],
     "population": 11193729,
     "flag": "https://flagcdn.com/w320/ss.png",
-    "latlng": { "lat": 7, "lng": 30 }
+    "latlon": { "lat": 7, "lon": 30 }
   },
   {
     "name": "Spain",
@@ -1735,7 +1735,7 @@
     "languages": ["Spanish", "Catalan", "Basque", "Galician"],
     "population": 47351567,
     "flag": "https://flagcdn.com/w320/es.png",
-    "latlng": { "lat": 40, "lng": -4 }
+    "latlon": { "lat": 40, "lon": -4 }
   },
   {
     "name": "Sri Lanka",
@@ -1746,7 +1746,7 @@
     "languages": ["Sinhala", "Tamil"],
     "population": 21919000,
     "flag": "https://flagcdn.com/w320/lk.png",
-    "latlng": { "lat": 7, "lng": 81 }
+    "latlon": { "lat": 7, "lon": 81 }
   },
   {
     "name": "Sudan",
@@ -1757,7 +1757,7 @@
     "languages": ["Arabic", "English"],
     "population": 43849269,
     "flag": "https://flagcdn.com/w320/sd.png",
-    "latlng": { "lat": 15, "lng": 30 }
+    "latlon": { "lat": 15, "lon": 30 }
   },
   {
     "name": "Suriname",
@@ -1768,7 +1768,7 @@
     "languages": ["Dutch"],
     "population": 586634,
     "flag": "https://flagcdn.com/w320/sr.png",
-    "latlng": { "lat": 4, "lng": -56 }
+    "latlon": { "lat": 4, "lon": -56 }
   },
   {
     "name": "Sweden",
@@ -1779,7 +1779,7 @@
     "languages": ["Swedish"],
     "population": 10353442,
     "flag": "https://flagcdn.com/w320/se.png",
-    "latlng": { "lat": 62, "lng": 15 }
+    "latlon": { "lat": 62, "lon": 15 }
   },
   {
     "name": "Switzerland",
@@ -1790,7 +1790,7 @@
     "languages": ["French", "Swiss German", "Italian", "Romansh"],
     "population": 8654622,
     "flag": "https://flagcdn.com/w320/ch.png",
-    "latlng": { "lat": 47, "lng": 8 }
+    "latlon": { "lat": 47, "lon": 8 }
   },
   {
     "name": "Syria",
@@ -1801,7 +1801,7 @@
     "languages": ["Arabic"],
     "population": 17500657,
     "flag": "https://flagcdn.com/w320/sy.png",
-    "latlng": { "lat": 35, "lng": 38 }
+    "latlon": { "lat": 35, "lon": 38 }
   },
   {
     "name": "Tajikistan",
@@ -1812,7 +1812,7 @@
     "languages": ["Russian", "Tajik"],
     "population": 9537642,
     "flag": "https://flagcdn.com/w320/tj.png",
-    "latlng": { "lat": 39, "lng": 71 }
+    "latlon": { "lat": 39, "lon": 71 }
   },
   {
     "name": "Tanzania",
@@ -1823,7 +1823,7 @@
     "languages": ["English", "Swahili"],
     "population": 59734213,
     "flag": "https://flagcdn.com/w320/tz.png",
-    "latlng": { "lat": -6, "lng": 35 }
+    "latlon": { "lat": -6, "lon": 35 }
   },
   {
     "name": "Thailand",
@@ -1834,7 +1834,7 @@
     "languages": ["Thai"],
     "population": 69799978,
     "flag": "https://flagcdn.com/w320/th.png",
-    "latlng": { "lat": 15, "lng": 100 }
+    "latlon": { "lat": 15, "lon": 100 }
   },
   {
     "name": "Timor-Leste",
@@ -1845,7 +1845,7 @@
     "languages": ["Portuguese", "Tetum"],
     "population": 1318442,
     "flag": "https://flagcdn.com/w320/tl.png",
-    "latlng": { "lat": -8.83333333, "lng": 125.91666666 }
+    "latlon": { "lat": -8.83333333, "lon": 125.91666666 }
   },
   {
     "name": "Togo",
@@ -1856,7 +1856,7 @@
     "languages": ["French"],
     "population": 8278737,
     "flag": "https://flagcdn.com/w320/tg.png",
-    "latlng": { "lat": 8, "lng": 1.16666666 }
+    "latlon": { "lat": 8, "lon": 1.16666666 }
   },
   {
     "name": "Tonga",
@@ -1867,7 +1867,7 @@
     "languages": ["English", "Tongan"],
     "population": 105697,
     "flag": "https://flagcdn.com/w320/to.png",
-    "latlng": { "lat": -20, "lng": -175 }
+    "latlon": { "lat": -20, "lon": -175 }
   },
   {
     "name": "Trinidad and Tobago",
@@ -1878,7 +1878,7 @@
     "languages": ["English"],
     "population": 1399491,
     "flag": "https://flagcdn.com/w320/tt.png",
-    "latlng": { "lat": 10.6918, "lng": -61.2225 }
+    "latlon": { "lat": 10.6918, "lon": -61.2225 }
   },
   {
     "name": "Tunisia",
@@ -1889,7 +1889,7 @@
     "languages": ["Arabic"],
     "population": 11818618,
     "flag": "https://flagcdn.com/w320/tn.png",
-    "latlng": { "lat": 34, "lng": 9 }
+    "latlon": { "lat": 34, "lon": 9 }
   },
   {
     "name": "Turkey",
@@ -1900,7 +1900,7 @@
     "languages": ["Turkish"],
     "population": 84339067,
     "flag": "https://flagcdn.com/w320/tr.png",
-    "latlng": { "lat": 39, "lng": 35 }
+    "latlon": { "lat": 39, "lon": 35 }
   },
   {
     "name": "Tuvalu",
@@ -1911,7 +1911,7 @@
     "languages": ["English", "Tuvaluan"],
     "population": 11792,
     "flag": "https://flagcdn.com/w320/tv.png",
-    "latlng": { "lat": -8, "lng": 178 }
+    "latlon": { "lat": -8, "lon": 178 }
   },
   {
     "name": "Uganda",
@@ -1922,7 +1922,7 @@
     "languages": ["English", "Swahili"],
     "population": 45741000,
     "flag": "https://flagcdn.com/w320/ug.png",
-    "latlng": { "lat": 1, "lng": 32 }
+    "latlon": { "lat": 1, "lon": 32 }
   },
   {
     "name": "Ukraine",
@@ -1933,7 +1933,7 @@
     "languages": ["Ukrainian"],
     "population": 44134693,
     "flag": "https://flagcdn.com/w320/ua.png",
-    "latlng": { "lat": 49, "lng": 32 }
+    "latlon": { "lat": 49, "lon": 32 }
   },
   {
     "name": "Uruguay",
@@ -1944,7 +1944,7 @@
     "languages": ["Spanish"],
     "population": 3473727,
     "flag": "https://flagcdn.com/w320/uy.png",
-    "latlng": { "lat": -33, "lng": -56 }
+    "latlon": { "lat": -33, "lon": -56 }
   },
   {
     "name": "Uzbekistan",
@@ -1955,7 +1955,7 @@
     "languages": ["Russian", "Uzbek"],
     "population": 34232050,
     "flag": "https://flagcdn.com/w320/uz.png",
-    "latlng": { "lat": 41, "lng": 64 }
+    "latlon": { "lat": 41, "lon": 64 }
   },
   {
     "name": "Vanuatu",
@@ -1966,7 +1966,7 @@
     "languages": ["Bislama", "English", "French"],
     "population": 307150,
     "flag": "https://flagcdn.com/w320/vu.png",
-    "latlng": { "lat": -16, "lng": 167 }
+    "latlon": { "lat": -16, "lon": 167 }
   },
   {
     "name": "Venezuela",
@@ -1977,7 +1977,7 @@
     "languages": ["Spanish"],
     "population": 28435943,
     "flag": "https://flagcdn.com/w320/ve.png",
-    "latlng": { "lat": 8, "lng": -66 }
+    "latlon": { "lat": 8, "lon": -66 }
   },
   {
     "name": "Vietnam",
@@ -1988,7 +1988,7 @@
     "languages": ["Vietnamese"],
     "population": 97338583,
     "flag": "https://flagcdn.com/w320/vn.png",
-    "latlng": { "lat": 16.16666666, "lng": 107.83333333 }
+    "latlon": { "lat": 16.16666666, "lon": 107.83333333 }
   },
   {
     "name": "Yemen",
@@ -1999,7 +1999,7 @@
     "languages": ["Arabic"],
     "population": 29825968,
     "flag": "https://flagcdn.com/w320/ye.png",
-    "latlng": { "lat": 15, "lng": 48 }
+    "latlon": { "lat": 15, "lon": 48 }
   },
   {
     "name": "Zambia",
@@ -2010,7 +2010,7 @@
     "languages": ["English"],
     "population": 18383956,
     "flag": "https://flagcdn.com/w320/zm.png",
-    "latlng": { "lat": -15, "lng": 30 }
+    "latlon": { "lat": -15, "lon": 30 }
   },
   {
     "name": "Zimbabwe",
@@ -2037,6 +2037,39 @@
     ],
     "population": 14862927,
     "flag": "https://flagcdn.com/w320/zw.png",
-    "latlng": { "lat": -20, "lng": 30 }
-  }
+    "latlon": { "lat": -20, "lon": 30 }
+  },
+  {
+    "name": "USA",
+    "currency": { "name": "United States dollar", "symbol": "$" },
+    "capital": "Washington, D.C",
+    "region": "Americas",
+    "subregion": "North America",
+    "languages": ["English"],
+    "population": 329484123,
+    "flag": "https://flagcdn.com/w320/us.png",
+    "latlon": { "lat": 38.0, "lon": -97.0 }
+  },
+  {
+   "name": "UK",
+   "currency": { "name": "British pound", "symbol": "£" },
+   "capital": "London",
+   "region": "Europe",
+   "subregion": "Northern Europe",
+   "languages": ["English"],
+   "population": 67215293,
+   "flag": "https://flagcdn.com/w320/gb.png",
+   "latlon": { "lat": 54.0, "lon": -2.0 }
+ },
+ {
+  "name": "South Korea",
+  "currency": { "name": "South Korean won", "symbol": "₩" },
+  "capital": "Seoul",
+  "region": "Asia",
+  "subregion": "Eastern Asia",
+  "languages": ["Korean"],
+  "population": 51780579,
+  "flag": "https://flagcdn.com/w320/kr.png",
+  "latlon": { "lat": 37.0, "lon": 127.5 }
+}
 ]
