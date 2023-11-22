@@ -113,7 +113,7 @@ export async function countriesResults() {
       { country: "Italy", alpha2Code: "it" },
       { country: "Uk", alpha2Code: "gb" },
       { country: "Russia", alpha2Code: "ru" },
-      { country: "Korea, South", alpha2Code: "kr" },
+      { country: "South Korea", alpha2Code: "kr" },
       { country: "Japan", alpha2Code: "jp" },
     ];
     let countriesNames = [];

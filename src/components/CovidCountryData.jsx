@@ -45,7 +45,9 @@ class CovidData extends Component {
         `/data/stats/countriesLatestData.json`
       );
       const data = await dataResponse.json();
-      const countryData = data.filter(e => e.country.toLowerCase() === country)[0];
+      const countryName = document.querySelector("#country").value;
+      const countryData = data.filter(e => e.country.toLowerCase() === countryName)[0];
+      console.log(countryName, countryData)
       this.setState({
         confirmed: countryData.confirmed,
         recovered: countryData.recovered,
