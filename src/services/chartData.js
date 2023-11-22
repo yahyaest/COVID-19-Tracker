@@ -1,7 +1,9 @@
 export const getChartData = async (country) => {
   try {
-    let countryName =
-      country.charAt(0).toUpperCase() + country.toLowerCase().substring(1);
+    let countryName = ""
+    let countryNameList = country.split(" ")
+    countryNameList.map(e => countryName = countryName +  " " + e.charAt(0).toUpperCase() + e.toLowerCase().substring(1))
+    countryName = countryName.trim()
 
     const countryDataResponse = await fetch(
       `/data/countries/${countryName}.json`

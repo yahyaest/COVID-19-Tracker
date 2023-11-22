@@ -4,1406 +4,1808 @@
     "confirmed": 103802702,
     "deaths": 1123836,
     "recovered": 102678866,
-    "country": "Usa"
+    "country": "Usa",
+    "lat": 38.0,
+    "lon": -97.0
   },
   {
     "date": "2023-3-9",
     "confirmed": 44690738,
     "deaths": 530779,
     "recovered": 44159959,
-    "country": "India"
+    "country": "India",
+    "lat": 20,
+    "lon": 77
   },
   {
     "date": "2023-3-9",
     "confirmed": 39866718,
     "deaths": 166176,
     "recovered": 39700542,
-    "country": "France"
+    "country": "France",
+    "lat": 46,
+    "lon": 2
   },
   {
     "date": "2023-3-9",
     "confirmed": 38249060,
     "deaths": 168935,
     "recovered": 38080125,
-    "country": "Germany"
+    "country": "Germany",
+    "lat": 51,
+    "lon": 9
   },
   {
     "date": "2023-3-9",
     "confirmed": 37076053,
     "deaths": 699276,
     "recovered": 36376777,
-    "country": "Brazil"
+    "country": "Brazil",
+    "lat": -10,
+    "lon": -55
   },
   {
     "date": "2023-3-9",
     "confirmed": 33320438,
     "deaths": 72997,
     "recovered": 33247441,
-    "country": "Japan"
+    "country": "Japan",
+    "lat": 36,
+    "lon": 138
   },
   {
     "date": "2023-3-9",
     "confirmed": 30615522,
     "deaths": 34093,
     "recovered": 30581429,
-    "country": "South Korea"
+    "country": "South Korea",
+    "lat": 37,
+    "lon": 127.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 25603510,
     "deaths": 188322,
     "recovered": 25415188,
-    "country": "Italy"
+    "country": "Italy",
+    "lat": 42.83333333,
+    "lon": 12.83333333
   },
   {
     "date": "2023-3-9",
     "confirmed": 24658705,
     "deaths": 220721,
     "recovered": 24437984,
-    "country": "Uk"
+    "country": "Uk",
+    "lat": 54.0,
+    "lon": -2.0
   },
   {
     "date": "2023-3-9",
     "confirmed": 22075858,
     "deaths": 388478,
     "recovered": 21687380,
-    "country": "Russia"
+    "country": "Russia",
+    "lat": 60,
+    "lon": 100
   },
   {
     "date": "2023-3-9",
     "confirmed": 17042722,
     "deaths": 101492,
     "recovered": 16941230,
-    "country": "Turkey"
+    "country": "Turkey",
+    "lat": 39,
+    "lon": 35
   },
   {
     "date": "2023-3-9",
     "confirmed": 13770429,
     "deaths": 119479,
     "recovered": 13650950,
-    "country": "Spain"
+    "country": "Spain",
+    "lat": 40,
+    "lon": -4
   },
   {
     "date": "2023-3-9",
     "confirmed": 11526994,
     "deaths": 43186,
     "recovered": 11483808,
-    "country": "Vietnam"
+    "country": "Vietnam",
+    "lat": 16.16666666,
+    "lon": 107.83333333
   },
   {
     "date": "2023-3-9",
     "confirmed": 11399460,
     "deaths": 19574,
     "recovered": 11379886,
-    "country": "Australia"
+    "country": "Australia",
+    "lat": -27,
+    "lon": 133
   },
   {
     "date": "2023-3-9",
     "confirmed": 10044957,
     "deaths": 130472,
     "recovered": 9914485,
-    "country": "Argentina"
+    "country": "Argentina",
+    "lat": -34,
+    "lon": -64
   },
   {
     "date": "2023-3-9",
     "confirmed": 9970937,
     "deaths": 17672,
     "recovered": 9953265,
-    "country": "Taiwan*"
+    "country": "Taiwan*",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 8712835,
     "deaths": 23705,
     "recovered": 8689130,
-    "country": "Netherlands"
+    "country": "Netherlands",
+    "lat": 52.5,
+    "lon": 5.75
   },
   {
     "date": "2023-3-9",
     "confirmed": 7572311,
     "deaths": 144933,
     "recovered": 7427378,
-    "country": "Iran"
+    "country": "Iran",
+    "lat": 32,
+    "lon": 53
   },
   {
     "date": "2023-3-9",
     "confirmed": 7483444,
     "deaths": 333188,
     "recovered": 7150256,
-    "country": "Mexico"
+    "country": "Mexico",
+    "lat": 23,
+    "lon": -102
   },
   {
     "date": "2023-3-9",
     "confirmed": 6738225,
     "deaths": 160941,
     "recovered": 6577284,
-    "country": "Indonesia"
+    "country": "Indonesia",
+    "lat": -5,
+    "lon": 120
   },
   {
     "date": "2023-3-9",
     "confirmed": 6444960,
     "deaths": 119010,
     "recovered": 6325950,
-    "country": "Poland"
+    "country": "Poland",
+    "lat": 52,
+    "lon": 20
   },
   {
     "date": "2023-3-9",
     "confirmed": 6359093,
     "deaths": 142339,
     "recovered": 6216754,
-    "country": "Colombia"
+    "country": "Colombia",
+    "lat": 4,
+    "lon": -72
   },
   {
     "date": "2023-3-9",
     "confirmed": 5961143,
     "deaths": 21970,
     "recovered": 5939173,
-    "country": "Austria"
+    "country": "Austria",
+    "lat": 47.33333333,
+    "lon": 13.33333333
   },
   {
     "date": "2023-3-9",
     "confirmed": 5711929,
     "deaths": 119283,
     "recovered": 5592646,
-    "country": "Ukraine"
+    "country": "Ukraine",
+    "lat": 49,
+    "lon": 32
   },
   {
     "date": "2023-3-9",
     "confirmed": 5570473,
     "deaths": 26266,
     "recovered": 5544207,
-    "country": "Portugal"
+    "country": "Portugal",
+    "lat": 39.5,
+    "lon": -8
   },
   {
     "date": "2023-3-9",
     "confirmed": 5548487,
     "deaths": 34779,
     "recovered": 5513708,
-    "country": "Greece"
+    "country": "Greece",
+    "lat": 39,
+    "lon": 22
   },
   {
     "date": "2023-3-9",
     "confirmed": 5192286,
     "deaths": 64273,
     "recovered": 5128013,
-    "country": "Chile"
+    "country": "Chile",
+    "lat": -30,
+    "lon": -71
   },
   {
     "date": "2023-3-9",
     "confirmed": 5044718,
     "deaths": 36967,
     "recovered": 5007751,
-    "country": "Malaysia"
+    "country": "Malaysia",
+    "lat": 2.5,
+    "lon": 112.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 4903524,
     "deaths": 101056,
     "recovered": 4802468,
-    "country": "China"
+    "country": "China",
+    "lat": 35,
+    "lon": 105
   },
   {
     "date": "2023-3-9",
     "confirmed": 4803824,
     "deaths": 12329,
     "recovered": 4791495,
-    "country": "Israel"
+    "country": "Israel",
+    "lat": 31.47,
+    "lon": 35.13
   },
   {
     "date": "2023-3-9",
     "confirmed": 4739365,
     "deaths": 33814,
     "recovered": 4705551,
-    "country": "Belgium"
+    "country": "Belgium",
+    "lat": 50.83333333,
+    "lon": 4
   },
   {
     "date": "2023-3-9",
     "confirmed": 4728182,
     "deaths": 33918,
     "recovered": 4694264,
-    "country": "Thailand"
+    "country": "Thailand",
+    "lat": 15,
+    "lon": 100
   },
   {
     "date": "2023-3-9",
     "confirmed": 4618256,
     "deaths": 42491,
     "recovered": 4575765,
-    "country": "Czechia"
+    "country": "Czechia",
+    "lat": 49.75,
+    "lon": 15.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 4617095,
     "deaths": 51720,
     "recovered": 4565375,
-    "country": "Canada"
+    "country": "Canada",
+    "lat": 60,
+    "lon": -95
   },
   {
     "date": "2023-3-9",
     "confirmed": 4487553,
     "deaths": 219539,
     "recovered": 4268014,
-    "country": "Peru"
+    "country": "Peru",
+    "lat": -10,
+    "lon": -76
   },
   {
     "date": "2023-3-9",
     "confirmed": 4413911,
     "deaths": 14210,
     "recovered": 4399701,
-    "country": "Switzerland"
+    "country": "Switzerland",
+    "lat": 47,
+    "lon": 8
   },
   {
     "date": "2023-3-9",
     "confirmed": 4077452,
     "deaths": 66188,
     "recovered": 4011264,
-    "country": "Philippines"
+    "country": "Philippines",
+    "lat": 13,
+    "lon": 122
   },
   {
     "date": "2023-3-9",
     "confirmed": 4067067,
     "deaths": 102595,
     "recovered": 3964472,
-    "country": "South Africa"
+    "country": "South Africa",
+    "lat": -29,
+    "lon": 24
   },
   {
     "date": "2023-3-9",
     "confirmed": 3451036,
     "deaths": 8345,
     "recovered": 3442691,
-    "country": "Denmark"
+    "country": "Denmark",
+    "lat": 56,
+    "lon": 10
   },
   {
     "date": "2023-3-9",
     "confirmed": 3346046,
     "deaths": 67736,
     "recovered": 3278310,
-    "country": "Romania"
+    "country": "Romania",
+    "lat": 46,
+    "lon": 25
   },
   {
     "date": "2023-3-9",
     "confirmed": 2699339,
     "deaths": 23777,
     "recovered": 2675562,
-    "country": "Sweden"
+    "country": "Sweden",
+    "lat": 62,
+    "lon": 15
   },
   {
     "date": "2023-3-9",
     "confirmed": 2667551,
     "deaths": 21035,
     "recovered": 2646516,
-    "country": "Slovakia"
+    "country": "Slovakia",
+    "lat": 48.66666666,
+    "lon": 19.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 2500142,
     "deaths": 17881,
     "recovered": 2482261,
-    "country": "Serbia"
+    "country": "Serbia",
+    "lat": 44,
+    "lon": 21
   },
   {
     "date": "2023-3-9",
     "confirmed": 2465545,
     "deaths": 25375,
     "recovered": 2440170,
-    "country": "Iraq"
+    "country": "Iraq",
+    "lat": 33,
+    "lon": 44
   },
   {
     "date": "2023-3-9",
     "confirmed": 2236114,
     "deaths": 2550,
     "recovered": 2233564,
-    "country": "New Zealand"
+    "country": "New Zealand",
+    "lat": -41,
+    "lon": 174
   },
   {
     "date": "2023-3-9",
     "confirmed": 2235294,
     "deaths": 1722,
     "recovered": 2233572,
-    "country": "Singapore"
+    "country": "Singapore",
+    "lat": 1.36666666,
+    "lon": 103.8
   },
   {
     "date": "2023-3-9",
     "confirmed": 2196804,
     "deaths": 48762,
     "recovered": 2148042,
-    "country": "Hungary"
+    "country": "Hungary",
+    "lat": 47,
+    "lon": 20
   },
   {
     "date": "2023-3-9",
     "confirmed": 2037871,
     "deaths": 29445,
     "recovered": 2008426,
-    "country": "Bangladesh"
+    "country": "Bangladesh",
+    "lat": 24,
+    "lon": 90
   },
   {
     "date": "2023-3-9",
     "confirmed": 1827537,
     "deaths": 16971,
     "recovered": 1810566,
-    "country": "Georgia"
+    "country": "Georgia",
+    "lat": 42,
+    "lon": 43.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 1746997,
     "deaths": 14122,
     "recovered": 1732875,
-    "country": "Jordan"
+    "country": "Jordan",
+    "lat": 31,
+    "lon": 36
   },
   {
     "date": "2023-3-9",
     "confirmed": 1704502,
     "deaths": 8708,
     "recovered": 1695794,
-    "country": "Ireland"
+    "country": "Ireland",
+    "lat": 53,
+    "lon": -8
   },
   {
     "date": "2023-3-9",
     "confirmed": 1577411,
     "deaths": 30644,
     "recovered": 1546767,
-    "country": "Pakistan"
+    "country": "Pakistan",
+    "lat": 30,
+    "lon": 70
   },
   {
     "date": "2023-3-9",
     "confirmed": 1498668,
     "deaths": 19071,
     "recovered": 1479597,
-    "country": "Kazakhstan"
+    "country": "Kazakhstan",
+    "lat": 48.0196,
+    "lon": 66.9237
   },
   {
     "date": "2023-3-9",
     "confirmed": 1479506,
     "deaths": 5213,
     "recovered": 1474293,
-    "country": "Norway"
+    "country": "Norway",
+    "lat": 62,
+    "lon": 10
   },
   {
     "date": "2023-3-9",
     "confirmed": 1463644,
     "deaths": 8967,
     "recovered": 1454677,
-    "country": "Finland"
+    "country": "Finland",
+    "lat": 64,
+    "lon": 26
   },
   {
     "date": "2023-3-9",
     "confirmed": 1331707,
     "deaths": 7078,
     "recovered": 1324629,
-    "country": "Slovenia"
+    "country": "Slovenia",
+    "lat": 46.11666666,
+    "lon": 14.81666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 1307448,
     "deaths": 9596,
     "recovered": 1297852,
-    "country": "Lithuania"
+    "country": "Lithuania",
+    "lat": 56,
+    "lon": 24
   },
   {
     "date": "2023-3-9",
     "confirmed": 1297523,
     "deaths": 38228,
     "recovered": 1259295,
-    "country": "Bulgaria"
+    "country": "Bulgaria",
+    "lat": 43,
+    "lon": 25
   },
   {
     "date": "2023-3-9",
     "confirmed": 1272490,
     "deaths": 16296,
     "recovered": 1256194,
-    "country": "Morocco"
+    "country": "Morocco",
+    "lat": 32,
+    "lon": -5
   },
   {
     "date": "2023-3-9",
     "confirmed": 1269326,
     "deaths": 17987,
     "recovered": 1251339,
-    "country": "Croatia"
+    "country": "Croatia",
+    "lat": 45.16666666,
+    "lon": 15.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 1238247,
     "deaths": 20182,
     "recovered": 1218065,
-    "country": "Guatemala"
+    "country": "Guatemala",
+    "lat": 15.5,
+    "lon": -90.25
   },
   {
     "date": "2023-3-9",
     "confirmed": 1232828,
     "deaths": 10841,
     "recovered": 1221987,
-    "country": "Lebanon"
+    "country": "Lebanon",
+    "lat": 33.83333333,
+    "lon": 35.83333333
   },
   {
     "date": "2023-3-9",
     "confirmed": 1209725,
     "deaths": 9245,
     "recovered": 1200480,
-    "country": "Costa Rica"
+    "country": "Costa Rica",
+    "lat": 10,
+    "lon": -84
   },
   {
     "date": "2023-3-9",
     "confirmed": 1194277,
     "deaths": 22365,
     "recovered": 1171912,
-    "country": "Bolivia"
+    "country": "Bolivia",
+    "lat": -17,
+    "lon": -65
   },
   {
     "date": "2023-3-9",
     "confirmed": 1151126,
     "deaths": 29341,
     "recovered": 1121785,
-    "country": "Tunisia"
+    "country": "Tunisia",
+    "lat": 34,
+    "lon": 9
   },
   {
     "date": "2023-3-9",
     "confirmed": 1112643,
     "deaths": 8530,
     "recovered": 1104113,
-    "country": "Cuba"
+    "country": "Cuba",
+    "lat": 21.5,
+    "lon": -80
   },
   {
     "date": "2023-3-9",
     "confirmed": 1057121,
     "deaths": 36014,
     "recovered": 1021107,
-    "country": "Ecuador"
+    "country": "Ecuador",
+    "lat": -2,
+    "lon": -77.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 1053213,
     "deaths": 2349,
     "recovered": 1050864,
-    "country": "Uae"
+    "country": "Uae",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 1034303,
     "deaths": 7617,
     "recovered": 1026686,
-    "country": "Uruguay"
+    "country": "Uruguay",
+    "lat": -33,
+    "lon": -56
   },
   {
     "date": "2023-3-9",
     "confirmed": 1031731,
     "deaths": 8609,
     "recovered": 1023122,
-    "country": "Panama"
+    "country": "Panama",
+    "lat": 9,
+    "lon": -80
   },
   {
     "date": "2023-3-9",
     "confirmed": 1007900,
     "deaths": 2136,
     "recovered": 1005764,
-    "country": "Mongolia"
+    "country": "Mongolia",
+    "lat": 46,
+    "lon": 105
   },
   {
     "date": "2023-3-9",
     "confirmed": 1001154,
     "deaths": 12020,
     "recovered": 989134,
-    "country": "Nepal"
+    "country": "Nepal",
+    "lat": 28,
+    "lon": 84
   },
   {
     "date": "2023-3-9",
     "confirmed": 994037,
     "deaths": 7118,
     "recovered": 986919,
-    "country": "Belarus"
+    "country": "Belarus",
+    "lat": 53,
+    "lon": 28
   },
   {
     "date": "2023-3-9",
     "confirmed": 976255,
     "deaths": 6269,
     "recovered": 969986,
-    "country": "Latvia"
+    "country": "Latvia",
+    "lat": 57,
+    "lon": 25
   },
   {
     "date": "2023-3-9",
     "confirmed": 830127,
     "deaths": 9618,
     "recovered": 820509,
-    "country": "Saudi Arabia"
+    "country": "Saudi Arabia",
+    "lat": 25,
+    "lon": 45
   },
   {
     "date": "2023-3-9",
     "confirmed": 828825,
     "deaths": 10138,
     "recovered": 818687,
-    "country": "Azerbaijan"
+    "country": "Azerbaijan",
+    "lat": 40.5,
+    "lon": 47.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 808401,
     "deaths": 19878,
     "recovered": 788523,
-    "country": "Paraguay"
+    "country": "Paraguay",
+    "lat": -23,
+    "lon": -58
   },
   {
     "date": "2023-3-9",
     "confirmed": 710693,
     "deaths": 1553,
     "recovered": 709140,
-    "country": "Bahrain"
+    "country": "Bahrain",
+    "lat": 26,
+    "lon": 50.55
   },
   {
     "date": "2023-3-9",
     "confirmed": 703228,
     "deaths": 5708,
     "recovered": 697520,
-    "country": "West Bank and Gaza"
+    "country": "West Bank and Gaza",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 672039,
     "deaths": 16830,
     "recovered": 655209,
-    "country": "Sri Lanka"
+    "country": "Sri Lanka",
+    "lat": 7,
+    "lon": 81
   },
   {
     "date": "2023-3-9",
     "confirmed": 663860,
     "deaths": 2570,
     "recovered": 661290,
-    "country": "Kuwait"
+    "country": "Kuwait",
+    "lat": 29.5,
+    "lon": 45.75
   },
   {
     "date": "2023-3-9",
     "confirmed": 660790,
     "deaths": 4384,
     "recovered": 656406,
-    "country": "Dominican Republic"
+    "country": "Dominican Republic",
+    "lat": 19,
+    "lon": -70.66666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 650685,
     "deaths": 1330,
     "recovered": 649355,
-    "country": "Cyprus"
+    "country": "Cyprus",
+    "lat": 35,
+    "lon": 33
   },
   {
     "date": "2023-3-9",
     "confirmed": 633950,
     "deaths": 19490,
     "recovered": 614460,
-    "country": "Burma"
+    "country": "Burma",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 615433,
     "deaths": 2946,
     "recovered": 612487,
-    "country": "Estonia"
+    "country": "Estonia",
+    "lat": 59,
+    "lon": 26
   },
   {
     "date": "2023-3-9",
     "confirmed": 611140,
     "deaths": 12003,
     "recovered": 599137,
-    "country": "Moldova"
+    "country": "Moldova",
+    "lat": 47,
+    "lon": 29
   },
   {
     "date": "2023-3-9",
     "confirmed": 552162,
     "deaths": 5854,
     "recovered": 546308,
-    "country": "Venezuela"
+    "country": "Venezuela",
+    "lat": 8,
+    "lon": -66
   },
   {
     "date": "2023-3-9",
     "confirmed": 515759,
     "deaths": 24812,
     "recovered": 490947,
-    "country": "Egypt"
+    "country": "Egypt",
+    "lat": 27,
+    "lon": 30
   },
   {
     "date": "2023-3-9",
     "confirmed": 507187,
     "deaths": 6437,
     "recovered": 500750,
-    "country": "Libya"
+    "country": "Libya",
+    "lat": 25,
+    "lon": 17
   },
   {
     "date": "2023-3-9",
     "confirmed": 500116,
     "deaths": 7572,
     "recovered": 492544,
-    "country": "Ethiopia"
+    "country": "Ethiopia",
+    "lat": 8,
+    "lon": 38
   },
   {
     "date": "2023-3-9",
     "confirmed": 495090,
     "deaths": 688,
     "recovered": 494402,
-    "country": "Qatar"
+    "country": "Qatar",
+    "lat": 25.5,
+    "lon": 51.25
   },
   {
     "date": "2023-3-9",
     "confirmed": 472250,
     "deaths": 11111,
     "recovered": 461139,
-    "country": "Honduras"
+    "country": "Honduras",
+    "lat": 15,
+    "lon": -86.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 447308,
     "deaths": 8727,
     "recovered": 438581,
-    "country": "Armenia"
+    "country": "Armenia",
+    "lat": 40,
+    "lon": 45
   },
   {
     "date": "2023-3-9",
     "confirmed": 401729,
     "deaths": 16280,
     "recovered": 385449,
-    "country": "Bosnia and Herzegovina"
+    "country": "Bosnia and Herzegovina",
+    "lat": 44,
+    "lon": 18
   },
   {
     "date": "2023-3-9",
     "confirmed": 399449,
     "deaths": 4628,
     "recovered": 394821,
-    "country": "Oman"
+    "country": "Oman",
+    "lat": 21,
+    "lon": 57
   },
   {
     "date": "2023-3-9",
     "confirmed": 346852,
     "deaths": 9662,
     "recovered": 337190,
-    "country": "North Macedonia"
+    "country": "North Macedonia",
+    "lat": 41.83333333,
+    "lon": 22
   },
   {
     "date": "2023-3-9",
     "confirmed": 343135,
     "deaths": 4057,
     "recovered": 339078,
-    "country": "Zambia"
+    "country": "Zambia",
+    "lat": -15,
+    "lon": 30
   },
   {
     "date": "2023-3-9",
     "confirmed": 342937,
     "deaths": 5688,
     "recovered": 337249,
-    "country": "Kenya"
+    "country": "Kenya",
+    "lat": 1,
+    "lon": 38
   },
   {
     "date": "2023-3-9",
     "confirmed": 334457,
     "deaths": 3598,
     "recovered": 330859,
-    "country": "Albania"
+    "country": "Albania",
+    "lat": 41,
+    "lon": 20
   },
   {
     "date": "2023-3-9",
     "confirmed": 329758,
     "deaths": 2801,
     "recovered": 326957,
-    "country": "Botswana"
+    "country": "Botswana",
+    "lat": -22,
+    "lon": 24
   },
   {
     "date": "2023-3-9",
     "confirmed": 317367,
     "deaths": 1220,
     "recovered": 316147,
-    "country": "Luxembourg"
+    "country": "Luxembourg",
+    "lat": 49.75,
+    "lon": 6.16666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 296042,
     "deaths": 1044,
     "recovered": 294998,
-    "country": "Mauritius"
+    "country": "Mauritius",
+    "lat": -20.28333333,
+    "lon": 57.55
   },
   {
     "date": "2023-3-9",
     "confirmed": 288808,
     "deaths": 2808,
     "recovered": 286000,
-    "country": "Montenegro"
+    "country": "Montenegro",
+    "lat": 42.5,
+    "lon": 19.3
   },
   {
     "date": "2023-3-9",
     "confirmed": 279661,
     "deaths": 225,
     "recovered": 279436,
-    "country": "Brunei"
+    "country": "Brunei",
+    "lat": 4.5,
+    "lon": 114.66666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 273312,
     "deaths": 3211,
     "recovered": 270101,
-    "country": "Kosovo"
+    "country": "Kosovo",
+    "lat": 42.666667,
+    "lon": 21.166667
   },
   {
     "date": "2023-3-9",
     "confirmed": 271496,
     "deaths": 6881,
     "recovered": 264615,
-    "country": "Algeria"
+    "country": "Algeria",
+    "lat": 28,
+    "lon": 3
   },
   {
     "date": "2023-3-9",
     "confirmed": 266598,
     "deaths": 3155,
     "recovered": 263443,
-    "country": "Nigeria"
+    "country": "Nigeria",
+    "lat": 10,
+    "lon": 8
   },
   {
     "date": "2023-3-9",
     "confirmed": 264276,
     "deaths": 5671,
     "recovered": 258605,
-    "country": "Zimbabwe"
+    "country": "Zimbabwe",
+    "lat": -20,
+    "lon": 30
   },
   {
     "date": "2023-3-9",
     "confirmed": 251247,
     "deaths": 1637,
     "recovered": 249610,
-    "country": "Uzbekistan"
+    "country": "Uzbekistan",
+    "lat": 41,
+    "lon": 64
   },
   {
     "date": "2023-3-9",
     "confirmed": 233214,
     "deaths": 2242,
     "recovered": 230972,
-    "country": "Mozambique"
+    "country": "Mozambique",
+    "lat": -18.25,
+    "lon": 35
   },
   {
     "date": "2023-3-9",
     "confirmed": 218023,
     "deaths": 758,
     "recovered": 217265,
-    "country": "Laos"
+    "country": "Laos",
+    "lat": 18,
+    "lon": 105
   },
   {
     "date": "2023-3-9",
     "confirmed": 209451,
     "deaths": 7896,
     "recovered": 201555,
-    "country": "Afghanistan"
+    "country": "Afghanistan",
+    "lat": 33,
+    "lon": 65
   },
   {
     "date": "2023-3-9",
     "confirmed": 209137,
     "deaths": 263,
     "recovered": 208874,
-    "country": "Iceland"
+    "country": "Iceland",
+    "lat": 65,
+    "lon": -18
   },
   {
     "date": "2023-3-9",
     "confirmed": 206708,
     "deaths": 2991,
     "recovered": 203717,
-    "country": "Kyrgyzstan"
+    "country": "Kyrgyzstan",
+    "lat": 41,
+    "lon": 75
   },
   {
     "date": "2023-3-9",
     "confirmed": 201785,
     "deaths": 4230,
     "recovered": 197555,
-    "country": "El Salvador"
+    "country": "El Salvador",
+    "lat": 13.83333333,
+    "lon": -88.91666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 189918,
     "deaths": 4355,
     "recovered": 185563,
-    "country": "Trinidad and Tobago"
+    "country": "Trinidad and Tobago",
+    "lat": 10.6918,
+    "lon": -61.2225
   },
   {
     "date": "2023-3-9",
     "confirmed": 185738,
     "deaths": 311,
     "recovered": 185427,
-    "country": "Maldives"
+    "country": "Maldives",
+    "lat": 3.25,
+    "lon": 73
   },
   {
     "date": "2023-3-9",
     "confirmed": 171229,
     "deaths": 1462,
     "recovered": 169767,
-    "country": "Ghana"
+    "country": "Ghana",
+    "lat": 8,
+    "lon": -2
   },
   {
     "date": "2023-3-9",
     "confirmed": 171156,
     "deaths": 4090,
     "recovered": 167066,
-    "country": "Namibia"
+    "country": "Namibia",
+    "lat": -22,
+    "lon": 17
   },
   {
     "date": "2023-3-9",
     "confirmed": 170544,
     "deaths": 3630,
     "recovered": 166914,
-    "country": "Uganda"
+    "country": "Uganda",
+    "lat": 1,
+    "lon": 32
   },
   {
     "date": "2023-3-9",
     "confirmed": 154416,
     "deaths": 3514,
     "recovered": 150902,
-    "country": "Jamaica"
+    "country": "Jamaica",
+    "lat": 18.25,
+    "lon": -77.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 138719,
     "deaths": 3056,
     "recovered": 135663,
-    "country": "Cambodia"
+    "country": "Cambodia",
+    "lat": 13,
+    "lon": 105
   },
   {
     "date": "2023-3-9",
     "confirmed": 133194,
     "deaths": 1468,
     "recovered": 131726,
-    "country": "Rwanda"
+    "country": "Rwanda",
+    "lat": -2,
+    "lon": 30
   },
   {
     "date": "2023-3-9",
     "confirmed": 124392,
     "deaths": 1965,
     "recovered": 122427,
-    "country": "Cameroon"
+    "country": "Cameroon",
+    "lat": 6,
+    "lon": 12
   },
   {
     "date": "2023-3-9",
     "confirmed": 117610,
     "deaths": 828,
     "recovered": 116782,
-    "country": "Malta"
+    "country": "Malta",
+    "lat": 35.9375,
+    "lon": 14.3754
   },
   {
     "date": "2023-3-9",
     "confirmed": 106798,
     "deaths": 579,
     "recovered": 106219,
-    "country": "Barbados"
+    "country": "Barbados",
+    "lat": 13.16666666,
+    "lon": -59.53333333
   },
   {
     "date": "2023-3-9",
     "confirmed": 105288,
     "deaths": 1933,
     "recovered": 103355,
-    "country": "Angola"
+    "country": "Angola",
+    "lat": -12.5,
+    "lon": 18.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 95749,
     "deaths": 1464,
     "recovered": 94285,
-    "country": "Congo (Kinshasa)"
+    "country": "Congo (Kinshasa)",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 88926,
     "deaths": 1971,
     "recovered": 86955,
-    "country": "Senegal"
+    "country": "Senegal",
+    "lat": 14,
+    "lon": -14
   },
   {
     "date": "2023-3-9",
     "confirmed": 88707,
     "deaths": 2686,
     "recovered": 86021,
-    "country": "Malawi"
+    "country": "Malawi",
+    "lat": -13.5,
+    "lon": 34
   },
   {
     "date": "2023-3-9",
     "confirmed": 88263,
     "deaths": 834,
     "recovered": 87429,
-    "country": "Cote d'Ivoire"
+    "country": "Cote d'Ivoire",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 82467,
     "deaths": 1404,
     "recovered": 81063,
-    "country": "Suriname"
+    "country": "Suriname",
+    "lat": 4,
+    "lon": -56
   },
   {
     "date": "2023-3-9",
     "confirmed": 74267,
     "deaths": 1425,
     "recovered": 72842,
-    "country": "Eswatini"
+    "country": "Eswatini",
+    "lat": -26.5,
+    "lon": 31.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 73075,
     "deaths": 1298,
     "recovered": 71777,
-    "country": "Guyana"
+    "country": "Guyana",
+    "lat": 5,
+    "lon": -59
   },
   {
     "date": "2023-3-9",
     "confirmed": 70757,
     "deaths": 688,
     "recovered": 70069,
-    "country": "Belize"
+    "country": "Belize",
+    "lat": 17.25,
+    "lon": -88.75
   },
   {
     "date": "2023-3-9",
     "confirmed": 68898,
     "deaths": 883,
     "recovered": 68015,
-    "country": "Fiji"
+    "country": "Fiji",
+    "lat": 17.7134,
+    "lon": 178.065
   },
   {
     "date": "2023-3-9",
     "confirmed": 67889,
     "deaths": 1423,
     "recovered": 66466,
-    "country": "Madagascar"
+    "country": "Madagascar",
+    "lat": -20,
+    "lon": 47
   },
   {
     "date": "2023-3-9",
     "confirmed": 63829,
     "deaths": 5017,
     "recovered": 58812,
-    "country": "Sudan"
+    "country": "Sudan",
+    "lat": 15,
+    "lon": 30
   },
   {
     "date": "2023-3-9",
     "confirmed": 63668,
     "deaths": 997,
     "recovered": 62671,
-    "country": "Mauritania"
+    "country": "Mauritania",
+    "lat": 20,
+    "lon": -12
   },
   {
     "date": "2023-3-9",
     "confirmed": 63244,
     "deaths": 413,
     "recovered": 62831,
-    "country": "Cabo Verde"
+    "country": "Cabo Verde",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 62627,
     "deaths": 21,
     "recovered": 62606,
-    "country": "Bhutan"
+    "country": "Bhutan",
+    "lat": 27.5,
+    "lon": 90.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 57467,
     "deaths": 3164,
     "recovered": 54303,
-    "country": "Syria"
+    "country": "Syria",
+    "lat": 35,
+    "lon": 38
   },
   {
     "date": "2023-3-9",
     "confirmed": 53631,
     "deaths": 38,
     "recovered": 53593,
-    "country": "Burundi"
+    "country": "Burundi",
+    "lat": -3.5,
+    "lon": 30
   },
   {
     "date": "2023-3-9",
     "confirmed": 50665,
     "deaths": 172,
     "recovered": 50493,
-    "country": "Seychelles"
+    "country": "Seychelles",
+    "lat": -4.58333333,
+    "lon": 55.66666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 48981,
     "deaths": 306,
     "recovered": 48675,
-    "country": "Gabon"
+    "country": "Gabon",
+    "lat": -1,
+    "lon": 11.75
   },
   {
     "date": "2023-3-9",
     "confirmed": 47890,
     "deaths": 165,
     "recovered": 47725,
-    "country": "Andorra"
+    "country": "Andorra",
+    "lat": 42.5,
+    "lon": 1.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 46825,
     "deaths": 670,
     "recovered": 46155,
-    "country": "Papua New Guinea"
+    "country": "Papua New Guinea",
+    "lat": -6,
+    "lon": 147
   },
   {
     "date": "2023-3-9",
     "confirmed": 42906,
     "deaths": 846,
     "recovered": 42060,
-    "country": "Tanzania"
+    "country": "Tanzania",
+    "lat": -6,
+    "lon": 35
   },
   {
     "date": "2023-3-9",
     "confirmed": 39396,
     "deaths": 290,
     "recovered": 39106,
-    "country": "Togo"
+    "country": "Togo",
+    "lat": 8,
+    "lon": 1.16666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 38267,
     "deaths": 467,
     "recovered": 37800,
-    "country": "Guinea"
+    "country": "Guinea",
+    "lat": 11,
+    "lon": -10
   },
   {
     "date": "2023-3-9",
     "confirmed": 37491,
     "deaths": 833,
     "recovered": 36658,
-    "country": "Bahamas"
+    "country": "Bahamas",
+    "lat": 25.0343,
+    "lon": -77.3963
   },
   {
     "date": "2023-3-9",
     "confirmed": 34790,
     "deaths": 723,
     "recovered": 34067,
-    "country": "Lesotho"
+    "country": "Lesotho",
+    "lat": -29.5,
+    "lon": 28.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 34202,
     "deaths": 860,
     "recovered": 33342,
-    "country": "Haiti"
+    "country": "Haiti",
+    "lat": 19,
+    "lon": -72.41666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 33062,
     "deaths": 743,
     "recovered": 32319,
-    "country": "Mali"
+    "country": "Mali",
+    "lat": 17,
+    "lon": -4
   },
   {
     "date": "2023-3-9",
     "confirmed": 30004,
     "deaths": 409,
     "recovered": 29595,
-    "country": "Saint Lucia"
+    "country": "Saint Lucia",
+    "lat": 13.88333333,
+    "lon": -60.96666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 27999,
     "deaths": 163,
     "recovered": 27836,
-    "country": "Benin"
+    "country": "Benin",
+    "lat": 9.5,
+    "lon": 2.25
   },
   {
     "date": "2023-3-9",
     "confirmed": 27324,
     "deaths": 1361,
     "recovered": 25963,
-    "country": "Somalia"
+    "country": "Somalia",
+    "lat": 10,
+    "lon": 49
   },
   {
     "date": "2023-3-9",
     "confirmed": 25087,
     "deaths": 388,
     "recovered": 24699,
-    "country": "Congo (Brazzaville)"
+    "country": "Congo (Brazzaville)",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 24575,
     "deaths": 153,
     "recovered": 24422,
-    "country": "Solomon Islands"
+    "country": "Solomon Islands",
+    "lat": -8,
+    "lon": 159
   },
   {
     "date": "2023-3-9",
     "confirmed": 23948,
     "deaths": 61,
     "recovered": 23887,
-    "country": "Micronesia"
+    "country": "Micronesia",
+    "lat": 6.91666666,
+    "lon": 158.25
   },
   {
     "date": "2023-3-9",
     "confirmed": 23616,
     "deaths": 122,
     "recovered": 23494,
-    "country": "San Marino"
+    "country": "San Marino",
+    "lat": 43.76666666,
+    "lon": 12.41666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 23419,
     "deaths": 138,
     "recovered": 23281,
-    "country": "Timor-Leste"
+    "country": "Timor-Leste",
+    "lat": -8.83333333,
+    "lon": 125.91666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 22056,
     "deaths": 396,
     "recovered": 21660,
-    "country": "Burkina Faso"
+    "country": "Burkina Faso",
+    "lat": 13,
+    "lon": -2
   },
   {
     "date": "2023-3-9",
     "confirmed": 21432,
     "deaths": 89,
     "recovered": 21343,
-    "country": "Liechtenstein"
+    "country": "Liechtenstein",
+    "lat": 47.26666666,
+    "lon": 9.53333333
   },
   {
     "date": "2023-3-9",
     "confirmed": 19680,
     "deaths": 238,
     "recovered": 19442,
-    "country": "Grenada"
+    "country": "Grenada",
+    "lat": 12.11666666,
+    "lon": -61.66666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 18368,
     "deaths": 138,
     "recovered": 18230,
-    "country": "South Sudan"
+    "country": "South Sudan",
+    "lat": 7,
+    "lon": 30
   },
   {
     "date": "2023-3-9",
     "confirmed": 17786,
     "deaths": 125,
     "recovered": 17661,
-    "country": "Tajikistan"
+    "country": "Tajikistan",
+    "lat": 39,
+    "lon": 71
   },
   {
     "date": "2023-3-9",
     "confirmed": 17229,
     "deaths": 183,
     "recovered": 17046,
-    "country": "Equatorial Guinea"
+    "country": "Equatorial Guinea",
+    "lat": 2,
+    "lon": 10
   },
   {
     "date": "2023-3-9",
     "confirmed": 16810,
     "deaths": 13,
     "recovered": 16797,
-    "country": "Tonga"
+    "country": "Tonga",
+    "lat": -20,
+    "lon": -175
   },
   {
     "date": "2023-3-9",
     "confirmed": 16607,
     "deaths": 29,
     "recovered": 16578,
-    "country": "Samoa"
+    "country": "Samoa",
+    "lat": -13.58333333,
+    "lon": -172.33333333
   },
   {
     "date": "2023-3-9",
     "confirmed": 16121,
     "deaths": 67,
     "recovered": 16054,
-    "country": "Monaco"
+    "country": "Monaco",
+    "lat": 43.73333333,
+    "lon": 7.4
   },
   {
     "date": "2023-3-9",
     "confirmed": 15760,
     "deaths": 74,
     "recovered": 15686,
-    "country": "Dominica"
+    "country": "Dominica",
+    "lat": 15.41666666,
+    "lon": -61.33333333
   },
   {
     "date": "2023-3-9",
     "confirmed": 15690,
     "deaths": 189,
     "recovered": 15501,
-    "country": "Djibouti"
+    "country": "Djibouti",
+    "lat": 11.5,
+    "lon": 43
   },
   {
     "date": "2023-3-9",
     "confirmed": 15655,
     "deaths": 245,
     "recovered": 15410,
-    "country": "Nicaragua"
+    "country": "Nicaragua",
+    "lat": 13,
+    "lon": -85
   },
   {
     "date": "2023-3-9",
     "confirmed": 15649,
     "deaths": 17,
     "recovered": 15632,
-    "country": "Marshall Islands"
+    "country": "Marshall Islands",
+    "lat": 9,
+    "lon": 168
   },
   {
     "date": "2023-3-9",
     "confirmed": 15368,
     "deaths": 113,
     "recovered": 15255,
-    "country": "Central African Republic"
+    "country": "Central African Republic",
+    "lat": 7,
+    "lon": 21
   },
   {
     "date": "2023-3-9",
     "confirmed": 12598,
     "deaths": 372,
     "recovered": 12226,
-    "country": "Gambia"
+    "country": "Gambia",
+    "lat": 13.46666666,
+    "lon": -16.56666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 12014,
     "deaths": 14,
     "recovered": 12000,
-    "country": "Vanuatu"
+    "country": "Vanuatu",
+    "lat": -16,
+    "lon": 167
   },
   {
     "date": "2023-3-9",
     "confirmed": 11945,
     "deaths": 2159,
     "recovered": 9786,
-    "country": "Yemen"
+    "country": "Yemen",
+    "lat": 15,
+    "lon": 48
   },
   {
     "date": "2023-3-9",
     "confirmed": 10189,
     "deaths": 103,
     "recovered": 10086,
-    "country": "Eritrea"
+    "country": "Eritrea",
+    "lat": 15,
+    "lon": 39
   },
   {
     "date": "2023-3-9",
     "confirmed": 9589,
     "deaths": 123,
     "recovered": 9466,
-    "country": "Saint Vincent and the Grenadines"
+    "country": "Saint Vincent and the Grenadines",
+    "lat": 13.25,
+    "lon": -61.2
   },
   {
     "date": "2023-3-9",
     "confirmed": 9508,
     "deaths": 315,
     "recovered": 9193,
-    "country": "Niger"
+    "country": "Niger",
+    "lat": 16,
+    "lon": 8
   },
   {
     "date": "2023-3-9",
     "confirmed": 9106,
     "deaths": 146,
     "recovered": 8960,
-    "country": "Antigua and Barbuda"
+    "country": "Antigua and Barbuda",
+    "lat": 17.05,
+    "lon": -61.8
   },
   {
     "date": "2023-3-9",
     "confirmed": 9008,
     "deaths": 161,
     "recovered": 8847,
-    "country": "Comoros"
+    "country": "Comoros",
+    "lat": -12.16666666,
+    "lon": 44.25
   },
   {
     "date": "2023-3-9",
     "confirmed": 8960,
     "deaths": 176,
     "recovered": 8784,
-    "country": "Guinea-Bissau"
+    "country": "Guinea-Bissau",
+    "lat": 12,
+    "lon": -15
   },
   {
     "date": "2023-3-9",
     "confirmed": 8090,
     "deaths": 295,
     "recovered": 7795,
-    "country": "Liberia"
+    "country": "Liberia",
+    "lat": 6.5,
+    "lon": -9.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 7760,
     "deaths": 126,
     "recovered": 7634,
-    "country": "Sierra Leone"
+    "country": "Sierra Leone",
+    "lat": 8.5,
+    "lon": -11.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 7679,
     "deaths": 194,
     "recovered": 7485,
-    "country": "Chad"
+    "country": "Chad",
+    "lat": 15,
+    "lon": 19
   },
   {
     "date": "2023-3-9",
     "confirmed": 6597,
     "deaths": 47,
     "recovered": 6550,
-    "country": "Saint Kitts and Nevis"
+    "country": "Saint Kitts and Nevis",
+    "lat": 17.33333333,
+    "lon": -62.75
   },
   {
     "date": "2023-3-9",
     "confirmed": 6281,
     "deaths": 77,
     "recovered": 6204,
-    "country": "Sao Tome and Principe"
+    "country": "Sao Tome and Principe",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 5991,
     "deaths": 9,
     "recovered": 5982,
-    "country": "Palau"
+    "country": "Palau",
+    "lat": 7.5,
+    "lon": 134.5
   },
   {
     "date": "2023-3-9",
     "confirmed": 5247,
     "deaths": 1,
     "recovered": 5246,
-    "country": "Nauru"
+    "country": "Nauru",
+    "lat": -0.53333333,
+    "lon": 166.91666666
   },
   {
     "date": "2023-3-9",
     "confirmed": 5014,
     "deaths": 18,
     "recovered": 4996,
-    "country": "Kiribati"
+    "country": "Kiribati",
+    "lat": 1.41666666,
+    "lon": 173
   },
   {
     "date": "2023-3-9",
     "confirmed": 2805,
     "deaths": 0,
     "recovered": 2805,
-    "country": "Tuvalu"
+    "country": "Tuvalu",
+    "lat": -8,
+    "lon": 178
   },
   {
     "date": "2023-3-9",
     "confirmed": 865,
     "deaths": 0,
     "recovered": 865,
-    "country": "Summer Olympics 2020"
+    "country": "Summer Olympics 2020",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 712,
     "deaths": 13,
     "recovered": 699,
-    "country": "Diamond Princess"
+    "country": "Diamond Princess",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 535,
     "deaths": 0,
     "recovered": 535,
-    "country": "Winter Olympics 2022"
+    "country": "Winter Olympics 2022",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 29,
     "deaths": 0,
     "recovered": 29,
-    "country": "Holy See"
+    "country": "Holy See",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 11,
     "deaths": 0,
     "recovered": 11,
-    "country": "Antarctica"
+    "country": "Antarctica",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 9,
     "deaths": 2,
     "recovered": 7,
-    "country": "MS Zaandam"
+    "country": "MS Zaandam",
+    "lat": 0,
+    "lon": 0
   },
   {
     "date": "2023-3-9",
     "confirmed": 1,
     "deaths": 6,
     "recovered": -5,
-    "country": "Korea, North"
+    "country": "Korea, North",
+    "lat": 0,
+    "lon": 0
   }
 ]

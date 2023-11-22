@@ -45,7 +45,6 @@ fs.readdir(countriesDataPath, (err, files) => {
         // Get top 10 countries
         countriesLatestData
           .sort((a, b) => b.confirmed - a.confirmed)
-          .slice(0, 10);
         // write Data
         const countriesListFile = `../public/data/stats/countriesList.json`;
 

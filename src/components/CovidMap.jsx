@@ -6,7 +6,7 @@ import axios from "axios";
 
 function CovidMap(props) {
   const [allCountriesData, setAllCountriesData] = useState([]);
-  const [casesType, setCasesType] = useState("cases");
+  const [casesType, setCasesType] = useState("confirmed");
 
   useEffect(() => {
     async function fetchData() {
@@ -17,7 +17,11 @@ function CovidMap(props) {
         const countriesData = countries.data;
         setAllCountriesData(countriesData);
       } catch (error) {
-        console.log(error);
+        const dataResponse = await fetch(
+          `/data/stats/countriesLatestData.json`
+        );
+        const data = await dataResponse.json();
+        setAllCountriesData(data);
       }
     }
     fetchData();
@@ -31,8 +35,7 @@ function CovidMap(props) {
         defaultValue="cases"
         onChange={(e) => setCasesType(e.currentTarget.value)}
       >
-        <option value="cases">Confirmed</option>
-        <option value="active">Active</option>
+        <option value="confirmed">Confirmed</option>
         <option value="recovered">Recovered</option>
         <option value="deaths">Deaths</option>
         {casesType}
