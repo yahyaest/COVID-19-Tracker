@@ -67,25 +67,30 @@ class HomePage extends React.Component {
       });
     } catch (error) {
       // API fails or no more supported. Parse data from local files
-      const dataResponse = await fetch(`/data/stats/allCountriesInfo.json`);
+      const environment = process.env.REACT_APP_ENV;
+      const domain = process.env.REACT_APP_DOMAIN;
+      const url =
+        environment === "PROD"
+          ? `${domain}/data/stats/allCountriesInfo.json`
+          : `/data/stats/allCountriesInfo.json`;
+      const dataResponse = await fetch(url);
       const data = await dataResponse.json();
       const country = document.querySelector("#country").value;
-      const countryInfo = data.filter(e => e.name.toLowerCase() === country)[0]
+      const countryInfo = data.filter(
+        (e) => e.name.toLowerCase() === country
+      )[0];
       this.setState({
         name: countryInfo.name,
         flag: countryInfo.flag,
         capital: countryInfo.capital || "Not Found",
         population: numeral(countryInfo.population).format("0,0"),
-        language:
-          countryInfo.languages[0] || "Not Found",
-        currency:
-          countryInfo.currency.name ||
-          "Not Found",
+        language: countryInfo.languages[0] || "Not Found",
+        currency: countryInfo.currency.name || "Not Found",
         lat: countryInfo.latlon.lat,
         lon: countryInfo.latlon.lon,
         zoom: 4,
       });
-      console.log(countryInfo)
+      console.log(countryInfo);
     }
   };
 

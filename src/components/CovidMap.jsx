@@ -17,9 +17,13 @@ function CovidMap(props) {
         const countriesData = countries.data;
         setAllCountriesData(countriesData);
       } catch (error) {
-        const dataResponse = await fetch(
-          `/data/stats/countriesLatestData.json`
-        );
+        const environment = process.env.REACT_APP_ENV;
+        const domain = process.env.REACT_APP_DOMAIN;
+        const url =
+          environment === "PROD"
+            ? `${domain}/data/stats/countriesLatestData.json`
+            : `/data/stats/countriesLatestData.json`;
+        const dataResponse = await fetch(url);
         const data = await dataResponse.json();
         setAllCountriesData(data);
       }

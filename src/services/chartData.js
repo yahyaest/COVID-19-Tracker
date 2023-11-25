@@ -1,13 +1,24 @@
 export const getChartData = async (country) => {
   try {
-    let countryName = ""
-    let countryNameList = country.split(" ")
-    countryNameList.map(e => countryName = countryName +  " " + e.charAt(0).toUpperCase() + e.toLowerCase().substring(1))
-    countryName = countryName.trim()
-
-    const countryDataResponse = await fetch(
-      `/data/countries/${countryName}.json`
+    let countryName = "";
+    let countryNameList = country.split(" ");
+    countryNameList.map(
+      (e) =>
+        (countryName =
+          countryName +
+          " " +
+          e.charAt(0).toUpperCase() +
+          e.toLowerCase().substring(1))
     );
+    countryName = countryName.trim();
+
+    const environment = process.env.REACT_APP_ENV;
+    const domain = process.env.REACT_APP_DOMAIN;
+    const url =
+      environment === "PROD"
+        ? `${domain}/data/countries/${countryName}.json`
+        : `/data/countries/${countryName}.json`;
+    const countryDataResponse = await fetch(url);
     const countryData = await countryDataResponse.json();
 
     //Setting the state

@@ -41,18 +41,25 @@ class CovidData extends Component {
       });
     } catch (error) {
       // API fails or no more supported. Parse data from local files
-      const dataResponse = await fetch(
-        `/data/stats/countriesLatestData.json`
-      );
+      const environment = process.env.REACT_APP_ENV;
+      const domain = process.env.REACT_APP_DOMAIN;
+      const url =
+        environment === "PROD"
+          ? `${domain}/data/stats/countriesLatestData.json`
+          : `/data/stats/countriesLatestData.json`;
+      const dataResponse = await fetch(url);
       const data = await dataResponse.json();
       const countryName = document.querySelector("#country").value;
-      const countryData = data.filter(e => e.country.toLowerCase() === countryName)[0];
-      console.log(countryName, countryData)
+      const countryData = data.filter(
+        (e) => e.country.toLowerCase() === countryName
+      )[0];
+      console.log(countryName, countryData);
       this.setState({
         confirmed: countryData.confirmed,
         recovered: countryData.recovered,
         deaths: countryData.deaths,
-        active: countryData.confirmed - countryData.recovered - countryData.deaths,
+        active:
+          countryData.confirmed - countryData.recovered - countryData.deaths,
         lastUpdate: countryData.date,
       });
     }

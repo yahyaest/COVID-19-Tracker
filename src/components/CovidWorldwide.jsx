@@ -22,9 +22,13 @@ const CovidWorldwide = () => {
         setLastUpdate(timeConverter(data.updated));
       } catch (error) {
         // API fails or no more supported. Parse data from local files
-        const dataResponse = await fetch(
-          `/data/stats/worldData.json`
-        );
+        const environment = process.env.REACT_APP_ENV;
+        const domain = process.env.REACT_APP_DOMAIN;
+        const url =
+          environment === "PROD"
+            ? `${domain}/data/stats/worldData.json`
+            : `/data/stats/worldData.json`;
+        const dataResponse = await fetch(url);
         const data = await dataResponse.json();
         setConfirmed(data.confirmed);
         setRecovered(data.recovered);
