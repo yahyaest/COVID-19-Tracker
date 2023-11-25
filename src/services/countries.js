@@ -99,9 +99,13 @@ export async function countriesResults() {
     return [topCountries, confirmed, recovered, deaths, alpha2Code_table];
   } catch (error) {
     // API fails or no more supported. Parse data from local files
-    const countryDataResponse = await fetch(
-      `/data/stats/countriesLatestData.json`
-    );
+    const environment = process.env.REACT_APP_ENV;
+    const domain = process.env.REACT_APP_DOMAIN;
+    const url =
+      environment === "PROD"
+        ? `${domain}/data/stats/countriesLatestData.json`
+        : `/data/stats/countriesLatestData.json`;
+    const countryDataResponse = await fetch(url);
     const countryData = await countryDataResponse.json();
     const topCountries = countryData.splice(0, 10);
     const alpha2CodeList = [
@@ -122,7 +126,10 @@ export async function countriesResults() {
       confirmed.push(country.confirmed);
       recovered.push(country.recovered);
       deaths.push(country.deaths);
-      alpha2Code_table.push(alpha2CodeList.filter(e => e.country === country.country)[0].alpha2Code);
+      alpha2Code_table.push(
+        alpha2CodeList.filter((e) => e.country === country.country)[0]
+          .alpha2Code
+      );
     }
     const isLocalData = true;
     return [
@@ -203,7 +210,8 @@ export function showDataOnMap(data, casesType) {
       color={casesTypeColors[casesType].hex}
       fillColor={casesTypeColors[casesType].hex}
       radius={
-        Math.sqrt(country[casesType]) * casesTypeColors[casesType].multiplier || 100
+        Math.sqrt(country[casesType]) * casesTypeColors[casesType].multiplier ||
+        100
       }
     >
       <Popup>

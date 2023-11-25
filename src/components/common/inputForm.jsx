@@ -20,13 +20,18 @@ const InputForm = ({ onFetch, setIsChart }) => {
           );
         })
         .catch(async (err) => {
-          const response = await fetch(`/data/stats/countriesList.json`);
+          const environment = process.env.REACT_APP_ENV;
+          const domain = process.env.REACT_APP_DOMAIN;
+          const url =
+            environment === "PROD"
+              ? `${domain}/data/stats/countriesList.json`
+              : `/data/stats/countriesList.json`;
+          const response = await fetch(url);
           const responseCountries = await response.json();
           for (const country of responseCountries) {
             countriesList.push(country.toLowerCase());
           }
           setCountries(countriesList);
-
         });
     }
     getCountriesList();
